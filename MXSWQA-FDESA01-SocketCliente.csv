@@ -1,0 +1,13 @@
+SWTIPMXFDESA01SAT-01^SAT~-~Autorizador~Sistemas~Admin~de~Tarjetas	98.200.10.137	5251
+SWTWSMXFDESA01RST-022-01^RST	https://procemisorqamexico.procesadoraindra.local:447/axis2SAT/services/SAT_TIMOBLOWS?wsdl
+SWTIPMXFDESA01PYT-01^PYT~-~Autorizador~Paytrue	10.246.46.239	6020
+SWTIPMXFDESA01NRT-01^NRT~-~Near~Real~Time~Fraude	10.139.12.136	32004
+SWTIPMXFDESA01GNG-01^GNG~-~Autorizador~Gogonogo	10.140.56.66	4634
+SWTWSMXFDESA01DPP-DPP-01^DPP~pago~QR	https://wallets-sandbox.dapp.mx/v2/payments/
+SWTWSMXFDESA01ARC-ARC-01^ARCUS	https://api.casiregalii.com/single/pay
+SWTIPMXFDESA01AES-01^AES~JSON	http://fdesa01.falabella.com:4000/api/cipher	4000
+SWTWSMXFDESA01PWR-026-01^PWR~-~Consumo~WS~PROSA	https://pruebasc.prosa.lat/SBDflb/API/reverse
+SWTWSMXFDESA01PWR-025-01^PWR~-~Consumo~WS~PROSA	http://pruebasc.prosa.lat:443/SBDflb/API/payment
+SWTWSMXFDESA01STP-007-01^STP~-~STP~México~tráfico~configurado~a~internet~como~FQDN	https://demo.stpmex.com:7024/spei/webservices/SpeiActualizaServices
+SWTWSMXFDESA01FLX-003-01^FLX~-~Flex~WebService~Anulación~Pago	http://10.140.57.191:7003/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSMXFDESA01FLX-002-01^FLX~-~Flex~WebService~Pago~Castigada	http://10.140.57.191:7003/FCUBSCLService/FCUBSCLService?wsdl

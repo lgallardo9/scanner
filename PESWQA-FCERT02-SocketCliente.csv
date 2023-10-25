@@ -1,0 +1,89 @@
+SWTWSPEFCERT02PMS-070-01^PMS-~Core~Pismo~Payments~Interoperability	https://payments-wallet-qa-priv.fpayapp.com/api-interoperability/v1/funds-in
+SWTWSPEFCERT02PMS-070-02^PMS-~Core~Pismo~Payments~Interoperability~reverse	https://payments-wallet-qa-priv.fpayapp.com/api-interoperability/v1/funds-in/reverse
+SWTIPPEFCERT02FC2-01^FC2-FC2PER-FP~-~FlexCube~ISO~Pasivos~Corporativo	10.217.41.56	9000
+SWTIPPEFCERT02GNG-01^GNG-GENPE04-FP~-~Autorizador~Gogonogo~Corporativo	10.217.122.62	5002
+SWTIPPEFCERT02GNG-02^GNG-GEPEN05-FP~-~Autorizador~Gogonogo~Corporativo	10.217.122.62	5003
+SWTIPPEFCERT02NRT-01^NRT-NRTPER-FP~-~Near~Real~Time~Fraude~Corporativo	10.139.8.138	32002
+SWTIPPEFCERT02PYT-01^PYT-PYTPER-FP~-~Autorizador~Paytrue~Corporativo	10.245.132.35	6011
+SWTWSPEFCERT02P22-P22-01^P22-Bloqueo~de~tarjeta~SAT~Perú.	http://10.140.40.90:7013/axis2/services/SAT_TIMOBLOWS?wsdl
+SWTWSPEFCERT02P74-P74-01^P74-Notifica~bloqueo~a~FLX~Perú.	http://10.139.1.81:7003/FCUBSCoreService/FCUBSCoreService?wsdl
+SWTIPPEFCERT02SAT-01^SAT-SATPER2-FP~-~Autorizador~Crédito~Corporativo	10.140.40.95	5247
+SWTIPPEFCERT02UBS-01^UBS-LNKUBS-Unibanca~PSP~Perú	172.24.9.102	20163
+SWTWSPEFCERT02V01-V01-01^V01-Prueba~para~VROL	https://certservicesgateway.visaonline.com
+SWTWSPEFCERT02V02-V02-01^V02-VROL~Transaction~Inquiry	https://mutualcertservicesgateway.visa.com/rsrv_rolti-mte2/api/submitTranInquiry
+SWTWSPEFCERT02V03-V03-01^V03-VROL~InitiateDispute	https://mutualcertservicesgateway.visa.com/websrv_rolti/mte2/RTSIService
+SWTWSPEFCERT02WV2-WV2-01^WV2-Liquidación~DAP~-~FLX	http://10.139.1.200:7003/FCUBSTDService/FCUBSTDService?wsdl
+SWTWSPEFCERT02001-001-01^001-Mensaje~de~Control~Flex	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSPEFCERT02002-002-01^002-FLX~Pago~Flexcube	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSPEFCERT02003-003-01^003-FLX~Anulación~Pago	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSPEFCERT02004-004-01^004-FLX~Abono~Pago	https://10.217.41.3:443/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSPEFCERT02005-005-01^005-WebService~SatWeb~Pag.~Unif.	http://10.140.40.98:7003/axis2/services/SAT_FLALPAGWS?wsdl
+SWTWSPEFCERT02008-008-01^008-WebService~Sat~Pag.	http://10.140.40.94:7003/axis2/services/SAT_FLALPAGWS?wsdl
+SWTWSPEFCERT02009-009-01^009-Web~Service~Mensaje~de~Control	http://10.140.40.98:7003//axis2/services/SAT_FLCOECTWS?wsdl
+SWTWSPEFCERT02010-010-01^010-Anulacion~de~pago~SAT~WV	http://10.140.40.94:7003/axis2/services/SAT_FLPANPGWS?wsdl
+SWTWSPEFCERT02011-011-01^011-Consulta~Saldo~CWS	http://10.140.40.94:7003/axis2/services/SAT_FLCLDISWS?wsdl
+SWTWSPEFCERT02012-012-01^012-Web~Service~Comisiones	https://comisionesqa.bancofalabella.pe/WSComOnline/endpoints
+SWTWSPEFCERT02013-013-01^013-Canje~de~Puntos~SFC	https://98.200.10.131/axis2SFCPeru/services/SFC_P7555100WS.SFC_P7555100WSHttpSoap11Endpoint/
+SWTWSPEFCERT02014-014-01^014-Anulación~Canje~SFC	https://98.200.10.131/axis2SFCPeru/services/SFC_P7555500WS.SFC_P7555500WSHttpSoap12Endpoint/
+SWTWSPEFCERT02015-015-01^015-FLX~Deuda~Total~Pago	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSPEFCERT02016-016-01^016-FLX~Reduccion~Cuota~Pago	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSPEFCERT02017-017-01^017-FLX~Reduccion~Plazo~Pago	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSPEFCERT02018-018-01^018-Flexcube~Crédito~de~consumo	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSPEFCERT02020-020-01^020-FLX~Fecha~vencimiento~Pagos	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSPEFCERT02021-021-01^021-Web~Service~Valida~OTPSVU	http://10.140.54.185:11353/CORP/cliente/v2_0/identidadValidar
+SWTWSPEFCERT02022-022-01^022-WS~RST~Bloqueos~SAT~TIMOBLOWS	https://10.140.40.90:7013/axis2/services/SAT_TIMOBLOWS?wsdl
+SWTWSPEFCERT02023-023-01^023-WS~Prepago~Cajas~Corp.~OPALAMA	http://10.140.40.90:7003/axis2/services/SAT_OPALAMAWS
+SWTWSPEFCERT02029-029-01^029-Anula.~Preventiva~CWS~sin~REF	http://10.140.40.94:7003/axis2/services/SAT_FLANPAGWS?wsdl
+SWTWSPEFCERT02030-030-01^030-Consulta~y~calculo~Punto~SFC	https://mdwcmrcltest.falabella.cl/canales/bus/Compra/Puntos/Simular/v1.0?wsdl
+SWTWSPEFCERT02031-031-01^031-Consulta~Dife.~CWS~FLSIMUL	http://10.140.40.12:7005/axis2/services/SAT_FLSIMULWS?wsdl
+SWTWSPEFCERT02033-033-01^033-Web~Service~OPALIME	http://10.140.40.90:7013/axis2/services/SAT_OPALIMEWS
+SWTWSPEFCERT02039-039-01^039-Anulación~Canje~SFC~Migración	https://184.170.233.214/axis2SFCChile/services/SFC_P7549200WS.SFC_P7549200WSHttpSoap12Endpoint
+SWTWSPEFCERT02040-040-01^040-WS~Prepago~Cajas~Corp.~FLALAMA	http://10.140.40.94:7003/axis2/services/SAT_FLALAMAWS?wsdl
+SWTWSPEFCERT02041-041-01^041-WS~Prepago~Cajas~Corp.~OPALAMA	http://10.140.40.90:7003/axis2/services/SAT_OPALAMAWS
+SWTWSPEFCERT02043-043-01^043-Refinanciamiento~EJB-SAT	http://10.140.40.94:7003/BCO_CORP_SAT_RefinanciamientoAPP_v1.0/satRefinanciemientoPt?wsdl
+SWTWSPEFCERT02044-044-01^044-Refinanciamiento~EJB-FLEX	https://10.217.41.3/BCO_CORP_FCC_RefinanciamientoAPP_v1.0/fccRefinanciemientoPt?wsdl
+SWTIPPEFCERT02045-01^045-Acuerdo~de~Pago.~Refinanciami.	Dir	0
+SWTWSPEFCERT02046-046-01^046-Creación~DAP~-~FLX~Renta~perio	https://10.217.41.3/FCUBSTDService/FCUBSTDService
+SWTWSPEFCERT02047-047-01^047-DAP~LIQUIDACIÓN	https://10.217.41.3/FCUBSTDService/FCUBSTDService
+SWTWSPEFCERT02048-048-01^048-DAP~Liquidación~ReverseTDRedem	https://10.217.41.3/FCUBSTDService/FCUBSTDService
+SWTWSPEFCERT02049-049-01^049-FLX~-~Emisión~CHQG	https://10.217.41.3/FCUBSDDService/FCUBSDDService?wsdl
+SWTWSPEFCERT02050-050-01^050-FLX~-~Pago~CHQG	https://10.217.41.3/FCUBSDDService/FCUBSDDService?wsdl
+SWTWSPEFCERT02051-051-01^051-Abono~Cuenta~Puente~Refinanci.	https://10.217.41.3/FCUBSRTService/FCUBSRTService?wsdlwsdl
+SWTWSPEFCERT02052-052-01^052-Alta~de~Compra~en~Cuotas	http://10.140.40.90:7013/axis2/services/SAT_OPALACCWS
+SWTWSPEFCERT02053-053-01^053-Servicio~de~Devolucion~Operaci	http://10.140.40.90:7013/axis2/services/SAT_FLALDEVWS
+SWTWSPEFCERT02054-054-01^054-Pago~de~EECC~con~SAV	http://10.140.40.12:7005/axis2/services/SAT_FLRESAVWS?wsdl
+SWTWSPEFCERT02057-057-01^057-Serv~Consulta~x~Rut~FLX	http://10.139.0.20:7003/FCUBSCLService/FCUBSCLService
+SWTWSPEFCERT02058-058-01^058-Serv~Consulta~x~contrato~FLX	http://10.139.0.20:7003/FCUBSCLService/FCUBSCLService
+SWTWSPEFCERT02059-059-01^059-FLX~Pago~Flexcube~Chile	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSPEFCERT02061-061-01^061-Abono~Pago~Deuda~GLOBOKAS	https://pdsglobokas-qa.falabella.com:443/appstkapi15/api/recaudo/v1.5/pago/deuda/
+SWTWSPEFCERT02062-062-01^062-Extorno~Pago~Deuda~GLOBOKAS	https://pdsglobokas-qa.falabella.com:443/appstkapi15/api/recaudo/v1.5/extorno/deuda/
+SWTWSPEFCERT02063-063-01^063-Autorización~WS~JSON~VISANET	https://172.22.254.140:7004/api.authorization/v3/authorization/ecommerce/332970481
+SWTWSPEFCERT02064-064-01^064-Anulación~WS~JSON~VISANET	https://172.22.254.140:7004/api.authorization/v3/reverse/ecommerce/332970481
+SWTWSPEFCERT02065-065-01^065-Anulación~Pago~SAV~CWS	http://10.140.40.12:7005/axis2/services/SAT_FLANSAVWS?wsdl
+SWTWSPEFCERT02066-066-01^066-Servicio~Consumo~APIGEE	https://integracion-bfcl-test.fif.tech:5443/oauth/cc/token
+SWTWSPEFCERT02067-067-01^067-Transferencia~Ordinarias~TIA	https://172.22.245.235:7004/services/TransferenciaLinea
+SWTWSPEFCERT02068-068-01^068-Notifica~Cambios~de~PIN~BFPE	http://10.140.0.215:10010/web/services/AZ7_NOTIFICA_CAMBIOPIN_SWITCH42Service/AZ7_NOTIFICA_CAMBIOPIN_SWITCH42?wsdl
+SWTWSPEFCERT02069-069-01^069-Notifica~Bloqueo~Tarjeta~BFPE	http://10.140.0.215:10010/web/services/AZ7_NOTIFICA_BLOQUEO_SWITCH42Service/AZ7_NOTIFICA_BLOQUEO_SWITCH42?wsdl
+SWTWSPEFCERT02070-070-01^070-Abono~Cuenta~Básica~CORE~PISMO	https://172.22.254.150/api-interoperability/v1/funds-in
+SWTWSPEFCERT02071-071-01^071-Devolución~Abono~CORE~PISMO	https://payments-wallet-qa-priv.fif.tech/acquirer-transaction/api-core-banking/acquirer-core-banking/v1/funds-in
+SWTWSPEFCERT02072-072-01^072-Transferencia~Diferida~ETRAN	https://sistematransferenciascanjes-test.falabella.com/bfpe/api/bftc/transferencia/interbancaria/salida/soap/TransferenciaInterbancariaService
+SWTWSPEFCERT02073-073-01^073-FLEX~Refi~REVERSA~con~Abono	https://10.217.41.3/FCUBSRTService/FCUBSRTService?wsdl
+SWTWSPEFCERT02074-074-01^074-Notifica~bloqueo~a~FLX.	http://10.139.1.81:7003/FCUBSCoreService/FCUBSCoreService?wsdl
+SWTWSPEFCERT02075-075-01^075-SFC~anulación~Parcial	https://98.200.10.131/axis2SFCPeru/services/SFC_P7FA2800WS.SFC_P7FA2800WSHttpsSoap11Endpoint
+SWTWSPEFCERT02076-076-01^076-Alta~y~Desembolso~Créd~de~Cons	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSPEFCERT02077-077-01^077-Alta~Des~Créd~de~Cons~Reversa	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSPEFCERT02078-078-01^078-Consulta~Integrada~UBA	https://10.217.41.3:443/FCUBSSTService/FCUBSSTService
+SWTWSPEFCERT02080-080-01^080-FLX~-~Consulta~de~Cuenta	http://10.139.1.200:7003/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSPEFCERT02081-081-01^081-FLX~-~CHQG~Web	https://10.217.41.3/FCUBSDDService/FCUBSDDService?wsdl
+SWTWSPEFCERT02082-082-01^082-FLX~DAP~Anulación~CloseTDAcc	https://10.217.41.3/FCUBSTDService/FCUBSTDService
+SWTWSPEFCERT02083-083-01^083-Reversa~Transaferencia~PISMO	https://172.22.254.150/api-interoperability/v1/funds-in/reverse
+SWTWSPEFCERT02084-084-01^084-Consulta~de~movimientos	https://10.217.41.3:443/FCUBSSTService/FCUBSSTService
+SWTWSPEFCERT02085-085-01^085-Refi.~Acuerdo~de~Pago~FLX_CBC	https://10.217.41.3/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSPEFCERT02086-086-01^086-Consulta~de~punto~SFC	https://98.200.10.131/axis2SFCPeru/services/SFC_P7542010WS.SFC_P7542010WSHttpSoap11Endpoint/
+SWTWSPEFCERT02104-104-01^104-FLX-Corrección~Crédito~Consumo	https://10.217.41.3/BCO_CORP_FCC_BackOfficeAPP_v1.0/fccBackOfficePt?wsdl
+SWTWSPEFCERT02105-105-01^105-SFC~Anulación~de~Anula.Parcial	https://sfcfalabellaqa.procesadoraindra.local/axis2SFCPeru/services/SFC_P7FA2801WS.SFC_P7FA2801WSHttpsSoap12Endpoint/
+SWTWSPEFCERT02106-106-01^106-Reversa~de~TIN-ETRAN	http://172.22.245.208:7003/bfpe/api/bftc/transferencia/interbancaria/salida/soap/TransferenciaInterbancariaService
+SWTWSPEFCERT02108-108-01^108-Pago~de~Servicios~con~CLARO	http://172.24.9.101:8080/ServiciosClaro/services/ServiciosClaro.ServiciosClaroHttpSoap11Endpoint/
+SWTWSPEFCERT02109-109-01^109-Pago~Servic~Claro~Reversa~RTO	http://172.24.9.101:8080/ServiciosClaro/services/ServiciosClaro.ServiciosClaroHttpSoap11Endpoint/
+SWTWSPEFCERT02111-111-01^111-Web~Service~OPALINM	http://10.140.40.94:7003/axis2/services/SAT_OPALINMWS?wsdl
+SWTWSPEFCERT02112-112-01^112-Wer~Service~FLCOSCC	http://10.140.40.94:7003/axis2/services/SAT_FLCOSCCWS?wsdl

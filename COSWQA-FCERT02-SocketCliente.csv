@@ -1,0 +1,48 @@
+SWTIPCOFCERT02SAT-01^SAT~-~Autorizador~Sistemas~Admin~de~Tarjetas	10.140.40.91	5255
+SWTIPCOFCERT02RAD-01^RAD~-~Conexión~Redeban~Rol~Adquiriente.~Destin	10.123.96.10	2060
+SWTIPCOFCERT02PYT-01^PYT~-~CORP~-~Autorizador~Paytrue	10.242.26.41	6021
+SWTIPCOFCERT02IBN-01^IBN-Ibanking-~Directa~TEST	10.140.57.93	443
+SWTIPCOFCERT02IBN-02^IBN-Ibanking-~Directa~UAT	10.140.56.100	443
+SWTIPCOFCERT02IBN-03^IBN-Ibanking-~Reversa~TEST	10.140.57.93	443
+SWTIPCOFCERT02IBN-04^IBN-Ibanking-~Reversa~UAT	10.140.56.100	443
+SWTIPCOFCERT02GNG-01^GNG~-~Autorizador~Gogonogo	10.140.56.66	4934
+SWTIPCOFCERT02FLX-01^FLX~Cloud~IP~f5	10.245.229.11	443
+SWTIPCOFCERT02FC2-01^FC2~-~CORP~-~FlexCube~ISO~Corporativo~IP~f5~OCI~CLOUD~FCC	10.245.229.11	9001
+SWTIPCOFCERT02FC2-02^FC2~-~CORP~-~FlexCube~ISO~Corporativo	10.139.1.71	9001
+SWTIPCOFCERT02CBA-01^CBA~-~Conexión~Credibanco~Visa~rol~adqu.~dest.	10.123.96.18	5510
+SWTIPCOFCERT02CBA-02^CBA~-~Conexión~Credibanco~Visa~rol~adqu.~dest.	10.123.96.18	4510
+SWTWSCOFCERT02FLX-082-01^FLX~-~Flex~WebService~Anulación~CDAT	http://10.139.1.81:7003/FCUBSRTService/FCUBSRTService?wsdl
+SWTWSCOFCERT02ABR-079-01^ABR~-~Risk~Assesment~BFCO	https://integracion-bfco-qa.fif.tech/fraud-and-aml-risks/v1/customer/transaction-risk-assessment
+SWTWSCOFCERT02RST-074-01^RST~-~Replica~bloqueo~FLX	http://10.139.1.81:7003/FCUBSCoreService/FCUBSCoreService?wsdl
+SWTWSCOFCERT02RST-074-02^RST~-~Replica~bloqueo~FLX~OCI	http://10.217.121.185:7003/FCUBSCoreService/FCUBSCoreService?wsdl
+SWTWSCOFCERT02RST-074-03^RST~-~Replica~bloqueo~FLX~OCI~Ip~F5	http://10.245.229.11:7003/FCUBSCoreService/FCUBSCoreService?wsdl
+SWTWSCOFCERT02FLX-073-01^FLX~-~Flex~WebService~Renegociados~reversa~abono~cta~pte	http://10.139.1.81:7003/FCUBSRTService/FCUBSRTService?wsdl
+SWTWSCOFCERT02CWS-053-01^CWS~-~Web~Service~SAT~Devolución	http://10.140.40.90:7014/axis2/services/SAT_FLALDEVWS
+SWTWSCOFCERT02CWS-052-01^CWS~-~Web~Service~SAT	http://10.140.40.90:7014/axis2/services/SAT_OPALACCWS
+SWTWSCOFCERT02FLX-051-01^FLX~-~Flex~WebService~Renegociados~abono~cuenta~puente	http://10.139.1.81:7003/FCUBSRTService/FCUBSRTService?wsdl
+SWTWSCOFCERT02FLX-047-01^FLX~-~Flex~WebService~Liquidación~CDAT	http://10.139.1.81:7003/FCUBSTDService/FCUBSTDService?wsdl
+SWTWSCOFCERT02FLX-046-01^FLX~-~Flex~WebService~Creación~CDAT	http://10.139.1.81:7003/FCUBSTDService/FCUBSTDService?wsdl
+SWTWSCOFCERT02FLX-044-01^FLX~-~Flex~WebService~Renegociados	http://10.139.1.81:7003/BCO_CORP_FCC_RefinanciamientoAPP_v1.0/fccRefinanciemientoPt
+SWTWSCOFCERT02CWS-043-01^CWS~-~EJB~SAT~Renegociados	https://ejbsatint.bancofalabella.com.co/BCO_CORP_SAT_RefinanciamientoAPP_v1.0/satRefinanciemientoPt
+SWTWSCOFCERT02CWS-033-01^CWS~-~Web~Service~SAT	http://10.140.40.90:7014/axis2/services/SAT_OPALIMEWS
+SWTWSCOFCERT02CWS-029-01^CWS~-~Web~Service~SAT~Anulación~Pago~EE.CC.~sin~Ref.	http://10.140.40.90:7014/axis2/services/SAT_FLANPAGWS?wsdl
+SWTIPCOFCERT02CWS-01^CWS	satint.bancofalabella.com.co	443
+SWTWSCOFCERT02TAS-028-01^TAS~-~Web~Service~Motor~de~tasas.	https://banco-co-motor-tasas-qa.fif.tech/InPricingOnlineWS/InPricing_olService?WSDL
+SWTWSCOFCERT02SBG-027-01^SBG~-~Autorizador~WS~SobreGiro	https://integracion-bfco-qa.fif.tech/credit-risks/v1/credit-cards/overdraft
+SWTWSCOFCERT02RST-022-01^RST~-~Replica~bloqueo~SAT	https://satint.bancofalabella.com.co/axis2/services/SAT_TIMOBLOWS?wsdl
+SWTWSCOFCERT02SVU-021-01^SVU~-~Service~Verification~User	http://middlewareuat.falabella.cl/bco/co/12c/bus/CORP/cliente/v2_0/identidadValidar
+SWTWSCOFCERT02FLX-020-01^FLX~-~Flex~WebService~Consulta~Fecha~Pago	http://10.139.1.81:7003/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCOFCERT02FLX-018-01^FLX~-~Flex~WebService~Alta~Crédito~Consumo	http://middlewareuat.falabella.cl/bco/co/12c/bus/BCO/CO/CreditoConsumo/v1_1/creditoConsumoTransaccionesSwitchCrear
+SWTWSCOFCERT02FLX-017-01^FLX~-~Flex~WebService~Pago~Reducción~Plazo	http://10.139.1.81:7003/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCOFCERT02FLX-016-01^FLX~-~Flex~WebService~Pago~Reducción~Cuota	http://10.139.1.81:7003/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCOFCERT02FLX-015-01^FLX~-~Flex~WebService~Pago~Total	http://10.139.1.81:7003/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCOFCERT02SFC-014-01^SFC~-~Sistema~Fidelizacion~Clientes~Anulación	https://98.200.10.131/axis2SFCColombia/services/SFC_P7555100WS.SFC_P7555100WSHttpSoap12Endpoint/ 
+SWTWSCOFCERT02SFC-013-01^SFC~-~Sistema~Fidelizacion~Clientes~Canje~Puntos	https://98.200.10.131/axis2SFCColombia/services/SFC_P7555100WS.SFC_P7555100WSHttpSoap12Endpoint/ 
+SWTWSCOFCERT02COM-012-01^COM~-~Web~Service~Conexión~Comisiones	http://10.140.40.73:7005/WSComOnline/endpoints
+SWTWSCOFCERT02CWS-011-01^CWS~-~Web~Service~SAT~Consulta~Saldo~y~Pago~Min.	http://10.140.40.90:7014/axis2/services/SAT_FLCLDISWS
+SWTWSCOFCERT02CWS-010-01^CWS~-~Web~Service~SAT~Anulación~Pago~EE.CC.	http://10.140.40.90:7014/axis2/services/SAT_OPANPAGWS
+SWTWSCOFCERT02CWS-008-01^CWS~-~Web~Service~SAT~Pago~EE.CC.	http://10.140.40.90:7014/axis2/services/SAT_FLALPAGWS
+SWTWSCOFCERT02FLX-004-01^FLX~-~Flex~WebService~Pago~AbonoFacturado	http://10.139.1.81:7003/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCOFCERT02FLX-003-01^FLX~-~Flex~WebService~Anulación~Pago	http://10.139.1.81:7003/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCOFCERT02FLX-002-01^FLX~-~Flex~WebService~Pago~Castigada	http://10.139.1.81:7003/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCOFCERT02API-066-01^APIGee	https://integracion-bfco-qa.fif.tech/oauth/cc/token

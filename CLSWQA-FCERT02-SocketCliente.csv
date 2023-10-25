@@ -1,0 +1,81 @@
+SWTIPCLFCERT02VSP-01^VSP~-~BFCL~-~Visa~Autorizador	11.11.11.1	10152
+SWTIPCLFCERT02TLC-01^TLC~-~BFCL~-~Autorizador~TELCOS	10.140.40.164	8887
+SWTIPCLFCERT02TLC-02^TLC~-~BFCL~-~Autorizador~TELCOS	108.10.0.32	7629
+SWTIPCLFCERT02TFS-01^TFS~-~BFCL~-~Autorizador~Transferencias~IFO	10.233.21.40	20010
+SWTIPCLFCERT02STI-01^STI~-~BFCL~-~SATIF	108.40.0.59	5692
+SWTIPCLFCERT02SAT-01^SAT~-~Autorizador~Sistemas~Admin~de~Tarjetas	10.140.40.13	5351
+SWTIPCLFCERT02RBE-01^RBE~-~BFCL~-~RedBanc~ISO	163.250.239.100	8059
+SWTIPCLFCERT02PYT-01^PYT~-~CORP~-~Autorizador~Paytrue	10.139.0.130	6111
+SWTIPCLFCERT02NRT-01^NRT~-~Near~Real~Time~Fraude	10.139.8.138	32001
+SWTIPCLFCERT02MCT-01^MCT~-~BFCL~-Tokenización~MasterCard~Google~PAY	98.200.14.229	6037
+SWTIPCLFCERT02MCT-02^MCT~-~BFCL~-Tokenización~MasterCard~Google~PAY	98.200.14.228	6037
+SWTIPCLFCERT02MCT-03^MCT~-~BFCL~-Tokenización~MasterCard~Google~PAY	10.98.15.55	6037
+SWTWSCLFCERT02KF3-KF3-01^KF3-PRODUCER2~Kafka~CDLV	http://bootstrap.cdlv.eventmesh.falabella.cl:30032
+SWTWSCLFCERT02KF2-KF2-01^KF2-PRODUCER1~Kafka~DCC	http://bootstrap.dcc.eventmesh.falabella.cl:30032
+SWTWSCLFCERT02KF1-KF1-01^KF1-KEY~Valult	https://vault.fif.tech:8200
+SWTIPCLFCERT02GNG-01^GNG~-~Autorizador~Gogonogo	10.217.123.47	5003
+SWTIPCLFCERT02GNG-02^GNG~-~Autorizador~Gogonogo	10.217.123.47	5002
+SWTIPCLFCERT02FDL-01^FDL~-~Sistema~Fidelización	108.40.0.59	5690
+SWTIPCLFCERT02FDL-02^FDL~-~Sistema~Fidelización	108.40.0.59	5692
+SWTIPCLFCERT02FDL-03^FDL~-~Sistema~Fidelización	108.40.0.58	5696
+SWTIPCLFCERT02FDL-04^FDL~-~Sistema~Fidelización	108.40.0.58	5703
+SWTIPCLFCERT02FCF-01^FCF~-~BFC~-~Flexcube~ISO~BUS	172.20.249.117	9011
+SWTIPCLFCERT02FCE-01^FCE~-~BFC~-~Flexcube~ISO~BUS	172.20.249.117	9006
+SWTIPCLFCERT02FCD-01^FCD~-~BFC~-~Flexcube~ISO~BUS	172.20.249.117	9004
+SWTIPCLFCERT02FCC-01^FCC~-~BFCL~-~FlexCube~ISO~BCO	10.140.57.134	9101
+SWTIPCLFCERT02FCC-02^FCC~-~BFCL~-~FlexCube~ISO~BCO	10.140.57.134	9100
+SWTIPCLFCERT02FCC-03^FCC~-~BFCL~-~FlexCube~ISO~BCO	10.140.57.134	9103
+SWTIPCLFCERT02FC2-01^FC2~-~BFCL~-~FlexCube~ISO~CORP	10.140.57.134	9101
+SWTIPCLFCERT02FCC-04^FCC~-~BFCL~-~FlexCube~ISO~BCO	10.140.57.134	9102
+SWTIPCLFCERT02FCB-01^FCB~-~BFC~-~Flexcube~ISO~BUS	172.20.249.48	9000
+SWTWSCLFCERT02CWS-112-01^CWS-Web~Service~FLCOSCC	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLCOSCCWS?wsdl
+SWTWSCLFCERT02CWS-111-01^CWS-Web~Service~OPALINM	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_OPALINMWS?wsdl
+SWTWSCLFCERT02AES-110-01^AES-API~AES~Cipher	http://fcert02.falabella.com:4000/api/cipher
+SWTWSCLFCERT02CWS-107-01^CWS-Cons.~Perfil~-~FLCLCCT	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLCLCCTWS?wsdl
+SWTWSCLFCERT02SFC-105-01^SFC~Anulación~de~Anula.Parcial	https://sfcfalabellaqa.procesadoraindra.local/axis2SFCChile/services/SFC_P7FA2801WS.SFC_P7FA2801WSHttpsSoap12Endpoint/
+SWTWSCLFCERT02CWS-103-01^CWS~-~Sat~Webservice~SuperAvance~Plus	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLALSAPWS?wsdl
+SWTWSCLFCERT02CWS-102-01^CWS~-~Sat~Webservice~Prepago~de~EECC	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLALPREWS?wsdl
+SWTWSCLFCERT02CWS-101-01^CWS~-~Sat~Webservice~Refinanciamiento	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLALREEWS?wsdl
+SWTWSCLFCERT02CWS-092-01^CWS~-~Sat~Webservice~Alta~Compra~Backoffice	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_OPALOPCWS?wsdl
+SWTWSCLFCERT02ABR-079-01^ABR~-~CORP~-~ABR~Risk~Assessment	https://integracion-bfcl-qa.fif.tech/fraud-and-aml-risks/v1/customer/transaction-risk-assessment
+SWTWSCLFCERT02SFC-075-01^SFC~-~Sistema~de~fidelizacion~Anulacion~Parcial~de~Canje	https://sfcfalabellaqa.procesadoraindra.local/axis2SFCChile/services/SFC_P7FA2800WS.SFC_P7FA2800WSHttpsSoap11Endpoint/
+SWTWSCLFCERT02SBG-066-01^SBG~-~Autorizador~WS~SobreGiro~Autorización	https://integracion-bfcl-qa.fif.tech/oauth/cc/token
+SWTWSCLFCERT02CWS-065-01^CWS~-~Sat~Webservice~Anulación~Pago~con~SAV	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLANSAVWS?wsdl
+SWTWSCLFCERT02FLX-060-01^FLX~-~CORP~-~Flex~WebService~FLX~Anulación~Pago~Chile	https://flexcorebancoqa3.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFCERT02FLX-059-01^FLX~-~CORP~-~Flex~WebService~FLX~Pago~Flexcube~Chile	https://flexcorebancoqa3.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFCERT02FLX-058-01^FLX~-~CORP~-~Flex~WebService~Serv~Consulta~x~contrato~FLX	https://flexcorebancoqa3.falabella.cl/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSCLFCERT02FLX-057-01^FLX~-~CORP~-~Flex~WebService~Serv~Consulta~x~Rut~FLX	https://flexcorebancoqa3.falabella.cl/FCUBSCLService/FCUBSCLService?WSDL
+SWTWSCLFCERT02CWS-054-01^CWS~-~Sat~Webservice~Pago~EECC~con~SAV	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLRESAVWS?wsdl
+SWTWSCLFCERT02CWS-053-01^CWS~-~Sat~Webservice~Devolución~Oper.~Backoffice	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLALDEVWS?wsdl
+SWTWSCLFCERT02CWS-038-01^CWS-Anulac~Pagos~con~Nro~Ref~CWS	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLPANPGWS?wsdl
+SWTWSCLFCERT02CWS-034-01^CWS-Consulta~Saldo~y~Pago~WS~CWZ	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLCLDISWS?wsdl
+SWTWSCLFCERT02CWS-033-01^CWS~-~Sat~Webservice~Backoffice	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_OPALIMEWS.SAT_OPALIMEWSHttpSoap12Endpoint/
+SWTWSCLFCERT02CWS-031-01^CWS~-~Sat~Webservice~Consulta~P.~Diferido~Cuotas	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLSIMULWS?wsdl
+SWTWSCLFCERT02SFC-030-01^SFC~-~Sistema~de~fidelizacion~Consulta~de~Puntos	https://mdwcmrcluat.falabella.cl/canales/bus/Compra/Puntos/Simular/v1.0?wsdl
+SWTWSCLFCERT02CWS-029-01^CWS~-~Sat~Webservice~Anulacion~de~Pago~sin~Ref.	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLANPAGWS?wsdl
+SWTWSCLFCERT02TAS-028-01^TAS~-~Web~Service~Motor~de~tasas.	https://qatasasbfcl.falabella.cl/InPricingOnlineWS/InPricing_olService
+SWTWSCLFCERT02SBG-027-01^SBG~-~Autorizador~WS~SobreGiro~Token~Vigente~APIGee	https://integracion-bfcl-qa.fif.tech/credit-risks/v1/credit-cards/overdraft
+SWTWSCLFCERT02FLX-020-01^FLX~-~CORP~-~Flex~WebService~Fecha~Vencimiento~Pagos	https://flexcorebancoqa3.falabella.cl/FCUBSCLService/FCUBSCLService
+SWTWSCLFCERT02FLX-018-01^FLX~-~CORP~-~Flex~WebService~Credito~de~Consumo	http://middlewareuat.falabella.cl/bco/co/12c/bus/BCO/CO/CreditoConsumo/v1_1/creditoConsumoTransaccionesSwitchCrear
+SWTWSCLFCERT02FLX-017-01^FLX~-~CORP~-~Flex~WebService~FLX~Reduccion~Plazo~Pago	https://flexcorebancoqa3.falabella.cl/FCUBSCLService/FCUBSCLService
+SWTWSCLFCERT02FLX-016-01^FLX~-~CORP~-~Flex~WebService~FLX~Reduccion~Cuota~Pago	https://flexcorebancoqa3.falabella.cl/FCUBSCLService/FCUBSCLService
+SWTWSCLFCERT02FLX-015-01^FLX~-~CORP~-~Flex~WebService~FLX~Deuda~Total~Pago	https://flexcorebancoqa3.falabella.cl/FCUBSCLService/FCUBSCLService
+SWTWSCLFCERT02SFC-014-01^SFC~-~Sistema~de~fidelizacion~Anulacion~de~Canje	https://sfcfalabellaqa.procesadoraindra.local/axis2SFCChile/services/SFC_P7555500WS.SFC_P7555500WSHttpSoap12Endpoint/
+SWTWSCLFCERT02SFC-013-01^SFC~-~Sistema~de~fidelizacion~Canje~de~Puntos	https://sfcfalabellaqa.procesadoraindra.local/axis2SFCChile/services/SFC_P7555100WS.SFC_P7555100WSHttpSoap12Endpoint/
+SWTWSCLFCERT02COM-012-01^COM~-~Web~Service~Conexión~Comisiones	http://manasquan.falabella.cl:7003/WSComOnlineCMR/endpoints/EventDetailsService.wsdl
+SWTWSCLFCERT02CWS-011-01^CWS~-~Sat~Webservice~Consulta~de~Saldo	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLCLDISWS?wsdl
+SWTWSCLFCERT02CWS-010-01^CWS~-~Sat~Webservice~Anulacion~de~Pago~con~Ref.	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLPANPGWS?wsdl
+SWTWSCLFCERT02CWS-009-01^CWS-Web~Service~Mensaje~de~Control	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLCOECTWS?wsdl
+SWTWSCLFCERT02CWS-008-01^CWS~-~Sat~Webservice~Pago~Unificado~SAT	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLALPAGWS?wsdl
+SWTWSCLFCERT02CWS-005-01^CWS-WebService~SatWeb~Pag.~Unif.	https://axissatqa1.bancofalabella.cl/axis2/services/SAT_FLALPAGWS?wsdl
+SWTWSCLFCERT02FLX-004-01^FLX~-~CORP~-~Flex~WebService~FLX~Abono~Pago	https://flexcorebancoqa3.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFCERT02FLX-003-01^FLX~-~CORP~-~Flex~WebService~Anulación~Pago	https://flexcorebancoqa3.falabella.cl/FCUBSCLService/FCUBSCLService
+SWTWSCLFCERT02FLX-002-01^FLX~-~CORP~-~Flex~WebService~FLX~Pago~Flexcube	https://flexcorebancoqa3.falabella.cl/FCUBSCLService/FCUBSCLService/CREATPAYMENT?wsdl
+SWTWSCLFCERT02FLX-001-01^FLX~-~Mensaje~de~Control~Flex	https://flexcorebancoqa3.falabella.cl/FCUBSCLService/FCUBSCLService
+SWTIPCLFCERT02CCO-01^CCO~-~BFCL-CCA~Originadora~IFO	172.20.200.71	27051
+SWTIPCLFCERT02CCO-02^CCO~-~BFCL-CCA~Originadora~IFO	172.20.200.71	28051
+SWTIPCLFCERT02CCO-03^CCO~-~BFCL-CCA~Originadora~IFO	172.20.200.71	29051
+SWTIPCLFCERT02Pru-01^Pruebas~Mirror~Bank~-~assay	10.0.111.147	8081
+SWTIPCLFCERT02RBO-01^RBO-~IFO~enviadaa~a~REDBANC~directo	163.250.239.100	6194
+SWTIPCLFCERT02RBO-02^RBO-~IFO~enviadaa~a~REDBANC~directo	163.250.239.100	6195
+SWTIPCLFCERT02RBO-03^RBO-~IFO~enviadaa~a~REDBANC~directo	163.250.239.100	6196

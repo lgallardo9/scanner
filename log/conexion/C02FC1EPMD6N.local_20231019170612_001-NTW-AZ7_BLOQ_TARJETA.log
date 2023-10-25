@@ -1,0 +1,190 @@
+curl -v -m 2  https://10.245.229.10:40013/web/services/AZ7_BLOQ_TARJETAService/AZ7_BLOQ_TARJETA?wsdl 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.245.229.10:40013...
+* Connected to 10.245.229.10 (10.245.229.10) port 40013 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: /etc/ssl/cert.pem
+*  CApath: none
+* [CONN-0-0][CF-SSL] (304) (OUT), TLS handshake, Client hello (1):
+} [296 bytes data]
+* [CONN-0-0][CF-SSL] (304) (IN), TLS handshake, Server hello (2):
+{ [87 bytes data]
+* [CONN-0-0][CF-SSL] TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [2881 bytes data]
+* [CONN-0-0][CF-SSL] TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* [CONN-0-0][CF-SSL] TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* [CONN-0-0][CF-SSL] TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* [CONN-0-0][CF-SSL] TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* [CONN-0-0][CF-SSL] TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* [CONN-0-0][CF-SSL] TLSv1.2 (IN), TLS change cipher, Change cipher spec (1):
+{ [1 bytes data]
+* [CONN-0-0][CF-SSL] TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=CL; ST=Metropolitana; L=Santiago; O=Admin. De Servicios Computac Y De Credito Cmr Falabella Ltda.; OU=SoporteSwitchAz7; CN=10.245.229.10
+*  start date: Apr 12 18:59:03 2023 GMT
+*  expire date: Apr 11 18:59:03 2025 GMT
+*  common name: 10.245.229.10 (matched)
+*  issuer: DC=com; DC=Falabella; CN=CA Falabella
+*  SSL certificate verify ok.
+> GET /web/services/AZ7_BLOQ_TARJETAService/AZ7_BLOQ_TARJETA?wsdl HTTP/1.1
+> Host: 10.245.229.10:40013
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Date: Thu, 19 Oct 2023 21:08:50 GMT
+< Server: Apache
+< X-Powered-By: IBM i
+< Content-Length: 5520
+< Connection: close
+< Content-Type: text/xml; charset=UTF-8
+< Content-Language: es-ES
+< 
+{ [5520 bytes data]
+<?xml version="1.0" encoding="UTF-8"?><definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://az7_bloq_tarjeta.wsbeans.iseries/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns="http://schemas.xmlsoap.org/wsdl/" name="AZ7_BLOQ_TARJETA" targetNamespace="http://az7_bloq_tarjeta.wsbeans.iseries/">
+  <types>
+<xs:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://az7_bloq_tarjeta.wsbeans.iseries/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://az7_bloq_tarjeta.wsbeans.iseries/" version="1.0">
+
+      
+  <xs:element name="pgmact" type="tns:pgmact"></xs:element>
+
+      
+  <xs:element name="pgmactResponse" type="tns:pgmactResponse"></xs:element>
+
+      
+  <xs:complexType name="pgmact">
+        
+    <xs:sequence>
+          
+      <xs:element minOccurs="0" name="arg0" type="tns:pgmactInput"></xs:element>
+        
+    </xs:sequence>
+      
+  </xs:complexType>
+
+      
+  <xs:complexType name="pgmactInput">
+        
+    <xs:sequence>
+          
+      <xs:element minOccurs="0" name="BRANCH" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="CANAL" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="CODIGO_BLOQUEO" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="CUENTA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="DOCUMENTO_ID" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="ENTIDAD" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="EXECUTIVEBRN" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="EXECUTIVEID" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="EXECUTIVEPASS" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="FECHATRANSAC" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="HORATRANSAC" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="IP" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="ORIGEN" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="REASONCD" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="REFERENCIA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="SESSIONID" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="TARJETA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="TEXTO_BLOQUEO" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="TIPOMENSAJE" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="TIPOSERVICIO" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="TIPO_DOC" type="xs:string"></xs:element>
+        
+    </xs:sequence>
+      
+  </xs:complexType>
+
+      
+  <xs:complexType name="pgmactResponse">
+        
+    <xs:sequence>
+          
+      <xs:element minOccurs="0" name="return" type="tns:pgmactResult"></xs:element>
+        
+    </xs:sequence>
+      
+  </xs:complexType>
+
+      
+  <xs:complexType name="pgmactResult">
+        
+    <xs:sequence>
+          
+      <xs:element minOccurs="0" name="AUTORIZACION" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="CODIGORTA" type="xs:string"></xs:element>
+        
+    </xs:sequence>
+   100  5520  100  5520    0     0  12715      0 --:--:-- --:--:-- --:--:-- 12867
+* Closing connection 0
+* [CONN-0-0][CF-SSL] TLSv1.2 (OUT), TLS alert, close notify (256):
+} [2 bytes data]
+   
+  </xs:complexType>
+
+</xs:schema>
+  </types>
+  <message name="pgmactResponse">
+    <part element="tns:pgmactResponse" name="parameters">
+    </part>
+  </message>
+  <message name="pgmact">
+    <part element="tns:pgmact" name="parameters">
+    </part>
+  </message>
+  <portType name="AZ7_BLOQ_TARJETAServices">
+    <operation name="pgmact">
+      <input message="tns:pgmact" wsam:Action="http://az7_bloq_tarjeta.wsbeans.iseries/AZ7_BLOQ_TARJETAServices/pgmactRequest">
+    </input>
+      <output message="tns:pgmactResponse" wsam:Action="http://az7_bloq_tarjeta.wsbeans.iseries/AZ7_BLOQ_TARJETAServices/pgmactResponse">
+    </output>
+    </operation>
+  </portType>
+  <binding name="AZ7_BLOQ_TARJETAServicesPortBinding" type="tns:AZ7_BLOQ_TARJETAServices">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"></soap:binding>
+    <operation name="pgmact">
+      <soap:operation soapAction=""></soap:operation>
+      <input>
+        <soap:body use="literal"></soap:body>
+      </input>
+      <output>
+        <soap:body use="literal"></soap:body>
+      </output>
+    </operation>
+  </binding>
+  <service name="AZ7_BLOQ_TARJETA">
+    <port binding="tns:AZ7_BLOQ_TARJETAServicesPortBinding" name="AZ7_BLOQ_TARJETAServicesPort">
+      <soap:address location="https://10.245.229.10:40013/web/services/AZ7_BLOQ_TARJETAService/AZ7_BLOQ_TARJETA"></soap:address>
+    </port>
+  </service>
+</definitions>

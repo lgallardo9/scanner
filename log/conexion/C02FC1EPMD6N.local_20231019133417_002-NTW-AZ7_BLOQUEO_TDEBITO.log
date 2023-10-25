@@ -1,0 +1,14 @@
+curl -v -m 2  http://10.245.229.10:40013/web/services/AZ7_BLOQUEO_TDEBITOService/AZ7_BLOQUEO_TDEBITO?wsdl 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.245.229.10:40013...
+* Connected to 10.245.229.10 (10.245.229.10) port 40013 (#0)
+> GET /web/services/AZ7_BLOQUEO_TDEBITOService/AZ7_BLOQUEO_TDEBITO?wsdl HTTP/1.1
+> Host: 10.245.229.10:40013
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Empty reply from server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (52) Empty reply from server

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://az7_cuenta_tarjeta.wsbeans.iseries/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns="http://schemas.xmlsoap.org/wsdl/" name="AZ7_CUENTA_TARJETA" targetNamespace="http://az7_cuenta_tarjeta.wsbeans.iseries/">
+  <types>
+<xs:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://az7_cuenta_tarjeta.wsbeans.iseries/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://az7_cuenta_tarjeta.wsbeans.iseries/" version="1.0">
+
+      
+  <xs:element name="pgmact" type="tns:pgmact"></xs:element>
+
+      
+  <xs:element name="pgmactResponse" type="tns:pgmactResponse"></xs:element>
+
+      
+  <xs:complexType name="pgmact">
+        
+    <xs:sequence>
+          
+      <xs:element minOccurs="0" name="arg0" type="tns:pgmactInput"></xs:element>
+        
+    </xs:sequence>
+      
+  </xs:complexType>
+
+      
+  <xs:complexType name="pgmactInput">
+        
+    <xs:sequence>
+          
+      <xs:element minOccurs="0" name="TIPOMENSAJE" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="TIPOSERVICIO" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="ENTIDAD" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="ORIGEN" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="FECHATRANSAC" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="HORATRANSAC" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="REFERENCIA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="TARJETA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="SECUENCIA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="CLASE" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="TIPO_DOC" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="DOCUMENTO_ID" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="NOMBRE_CLI" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="NOMBRE_TAR" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="ESTADO_TAR" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="IND_LLAVE" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="OFFSET" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="FECHA_EXP" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="FECHA_ACT" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="HORA_ACT" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="OFICINA_AP" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="COD_TARIFA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="COD_CUPO" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="ID_TARJETA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="RUT" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="CATEGORIA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="TIPO_CLI_RNW" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="IND_EMPLEADO" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="METODO_DEB" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="CUENTA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="TIPO_REL" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="TIPO_CUENTA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="MONEDA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="SALDO_REAL" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="EST_CUENTA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="CTA_DFT" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="SUPERCASH" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="CREDITO" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="PIVOTE" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="TIPO_CRE" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="SEGMENTO" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="SITUACION" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="SEC_CUENTA" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="CANAL" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="IP" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="SESSIONID" type="xs:string"></xs:element>
+        
+    </xs:sequence>
+      
+  </xs:complexType>
+
+      
+  <xs:complexType name="pgmactResponse">
+        
+    <xs:sequence>
+          
+      <xs:element minOccurs="0" name="return" type="tns:pgmactResult"></xs:element>
+        
+    </xs:sequence>
+      
+  </xs:complexType>
+
+      
+  <xs:complexType name="pgmactResult">
+        
+    <xs:sequence>
+          
+      <xs:element minOccurs="0" name="AUTORIZACION" type="xs:string"></xs:element>
+          
+      <xs:element minOccurs="0" name="COD_RTA" type="xs:string"></xs:element>
+        
+    </xs:sequence>
+      
+  </xs:complexType>
+
+</xs:schema>
+  </types>
+  <message name="pgmact">
+    <part element="tns:pgmact" name="parameters">
+    </part>
+  </message>
+  <message name="pgmactResponse">
+    <part element="tns:pgmactResponse" name="parameters">
+    </part>
+  </message>
+  <portType name="AZ7_CUENTA_TARJETAServices">
+    <operation name="pgmact">
+      <input message="tns:pgmact" wsam:Action="http://az7_cuenta_tarjeta.wsbeans.iseries/AZ7_CUENTA_TARJETAServices/pgmactRequest">
+    </input>
+      <output message="tns:pgmactResponse" wsam:Action="http://az7_cuenta_tarjeta.wsbeans.iseries/AZ7_CUENTA_TARJETAServices/pgmactResponse">
+    </output>
+    </operation>
+  </portType>
+  <binding name="AZ7_CUENTA_TARJETAServicesPortBinding" type="tns:AZ7_CUENTA_TARJETAServices">
+    <soap12:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"></soap12:binding>
+    <operation name="pgmact">
+      <input>
+        <soap12:body use="literal"></soap12:body>
+      </input>
+      <output>
+        <soap12:body use="literal"></soap12:body>
+      </output>
+    </operation>
+  </binding>
+  <service name="AZ7_CUENTA_TARJETA">
+    <port binding="tns:AZ7_CUENTA_TARJETAServicesPortBinding" name="AZ7_CUENTA_TARJETAServicesPort">
+      <soap12:address location="http://10.140.0.218:10155/web/services/AZ7_CUENTA_TARJETAService/AZ7_CUENTA_TARJETA"></soap12:address>
+    </port>
+  </service>
+</definitions>

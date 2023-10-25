@@ -1,0 +1,60 @@
+CBA-SOC4510-Conexión~Credibanco~Visa~rol~adqu.~dest.	10.123.96.18	4510
+CBA-SOC5510-Conexión~Credibanco~Visa~rol~adqu.~dest.	10.123.96.18	5510
+FC2-FCCCLOUD0-CORP~-~FlexCube~ISO~Corporativo	10.245.229.11	9001
+GNG-GNGCOL-Autorizador~Gogonogo	10.140.56.66	4934
+GNG-TSMX002-Autorizador~Gogonogo	10.140.56.66	4934
+NRT-NRTCOL-Near~Real~Time~Fraude	10.140.0.215	32003
+PYT-PYTCOL-CORP~-~Autorizador~Paytrue	10.242.26.41	6021
+RAD-RADSKT-Conexión~Redeban~Rol~Adquiriente.~Destin	10.123.96.10	2060
+SAT-SATCOL-Autorizador~Sistemas~Admin~de~Tarjetas	10.140.40.91	5255
+001-Mensaje~de~Control~Flex	https://10.140.57.191:7003/FCUBSCLService/FCUBSCLService
+002-FLX~Pago~Flexcube	https://banco-co-fcc-qa-priv.fif.tech/FCUBSCLService/FCUBSCLService?wsdl
+003-FLX~Anulacion~Pago	https://banco-co-fcc-qa-priv.fif.tech/FCUBSCLService/FCUBSCLService?wsdl
+004-FLX~Abono~Pago	https://banco-co-fcc-qa-priv.fif.tech/FCUBSCLService/FCUBSCLService?wsdl
+005-WS~SatWeb~PagUnif~-~No~se~usa	https://satint.bancofalabella.com.co/axis2/services/SAT_FLALPAGWS?wsdl
+006-Pago~Flexcube~Argentina	http://qafcubearsatint.falabella.cl:80/FCUBSCLService/FCUBSCLService
+007-STP~México~RegistraOrden	https://demo.stpmex.com:7024/speidemo/webservices/SpeiActualizaServices
+008-WebService~Sat~Pag.	https://satint.bancofalabella.com.co/axis2/services/SAT_FLALPAGWS?wsdl
+009-Web~Service~Mensaje~de~Control	https://satint.bancofalabella.com.co/axis2/services/SAT_FLCOECTWS?wsdl
+010-Anulacion~de~pago~SAT	https://satint.bancofalabella.com.co/axis2/services/SAT_OPANPAGWS
+011-Consulta~Saldo~y~Pago~WS~SAT	https://satint.bancofalabella.com.co/axis2/services/SAT_FLCLDISWS?wsdl
+012-Web~Service~Comisiones	http://10.140.40.73:7005/WSComOnline/endpoints
+013-Canje~de~Puntos~SFC	https://98.200.10.131/axis2SFCColombia/services/SFC_P7555100WS.SFC_P7555100WSHttpSoap12Endpoint/
+014-Anulación~Canje~SFC	https://98.200.10.131/axis2SFCColombia/services/SFC_P7555500WS.SFC_P7555500WSHttpSoap12Endpoint/
+015-FLX~Deuda~Total~Pago	https://banco-co-fcc-qa-priv.fif.tech/FCUBSCLService/FCUBSCLService?wsdl
+016-FLX~Reduccion~Cuota~Pago	https://banco-co-fcc-qa-priv.fif.tech/FCUBSCLService/FCUBSCLService?wsdl
+017-FLX~Reduccion~Plazo~Pago	https://banco-co-fcc-qa-priv.fif.tech/FCUBSCLService/FCUBSCLService?wsdl
+018-Flexcube~Crédito~de~consumo	http://middlewareuat.falabella.cl/bco/co/12c/bus/BCO/CO/CreditoConsumo/v1_1/creditoConsumoTransaccionesSwitchCrear
+019-Bloqueo~de~Tarjetas~4.1	http://120.11.10.126:10032/web/services/SWT_Bloqueo_Upgrade_Switch42?wsdl
+020-FLX~Fecha~vencimiento~Pagos	https://banco-co-fcc-qa-priv.fif.tech/FCUBSCLService/FCUBSCLService?wsdl
+021-Web~Service~Valida~OTP[SVU]	http://middlewareuat.falabella.cl/bco/co/12c/bus/CORP/cliente/v2_0/identidadValidar
+022-WS~RST~Bloqueos~SAT~~TIMOBLOWS	https://satint.bancofalabella.com.co/axis2/services/SAT_TIMOBLOWS?wsdl
+023-WS~Prepago~Cajas~Corp.~OPALAMA	http://10.140.40.90:7003/axis2/services/SAT_OPALAMAWS
+024-Notificaciones~de~PIN~a~4.1	http://120.11.10.126:10032/web/services/SWT_ActualizacionPin_Upgrade_Switch42
+027-Web~Service~JSON~SobreGiro	https://integracion-bfco-qa.fif.tech/credit-risks/v1/credit-cards/overdraft
+028-Web~Service~Motor~de~Tasas~CO	https://banco-co-motor-tasas-qa.fif.tech/InPricingOnlineWS/InPricing_olService?WSDL
+029-Anula.~Preventiva~CWS~sin~REF	https://satint.bancofalabella.com.co/axis2/services/SAT_FLANPAGWS
+031-Consulta~Dife~CWS~FLSIMUL	https://satint.bancofalabella.com.co/axis2/services/SAT_FLSIMULWS?wsdl
+033-Web~Service~OPALIME	https://satint.bancofalabella.com.co/axis2/services/SAT_OPALIMEWS?wsdl
+040-WS~Prepago~Cajas~Corp.~FLALAMA	https://satint.bancofalabella.com.co/axis2/services/SAT_FLALAMAWS
+041-WS~Prepago~Cajas~Corp.~OPALAMA	https://satint.bancofalabella.com.co/axis2/services/SAT_OPALAMAWS?wsdl
+043-Refinanciamiento~EJB-SAT	https://ejbsatint.bancofalabella.com.co/BCO_CORP_SAT_RefinanciamientoAPP_v1.0/satRefinanciemientoPt
+044-Refinanciamiento~EJB-FLEX	https://banco-co-fcc-qa-priv.fif.tech/BCO_CORP_FCC_RefinanciamientoAPP_v1.0/fccRefinanciemientoPt
+046-Creación~DAP~-~FLX	https://banco-co-fcc-qa-priv.fif.tech/FCUBSTDService/FCUBSTDService?wsdl
+047-Liquidación~DAP~-~FLX	https://banco-co-fcc-qa-priv.fif.tech/FCUBSTDService/FCUBSTDService?wsdl
+048-Rev.~Liquidación~DAP~-~FLX	https://banco-co-fcc-qa-priv.fif.tech/FCUBSTDService/FCUBSTDService?wsdl
+049-FLX~-~Emisión~CHQG~CO	https://banco-co-fcc-qa-priv.fif.tech/FCUBSDDService/FCUBSDDService
+050-FLX~-~Pago~CHQG	https://banco-co-fcc-qa-priv.fif.tech/FCUBSDDService/FCUBSDDService?wsdl
+051-Abono~Cuenta~Puente~Refinanci.	https://banco-co-fcc-qa-priv.fif.tech/FCUBSRTService/FCUBSRTService?wsdl
+052-Alta~de~Compra~en~Cuotas	https://satint.bancofalabella.com.co/axis2/services/SAT_OPALACCWS?wsdl
+053-Servicio~de~Devolucion~Operaci	https://satint.bancofalabella.com.co/axis2/services/SAT_FLALDEVWS?wsdl
+066-Servicio~Consumo~APIGee	https://integracion-bfco-qa.fif.tech/oauth/cc/token
+073-Reversa~Abono~Cta~Puente~Refi.	https://banco-co-fcc-qa-priv.fif.tech/FCUBSRTService/FCUBSRTService?wsdl
+074-Notifica~bloqueo~a~FLX.	http://10.217.121.185:7003/FCUBSCoreService/FCUBSCoreService?wsdl
+075-SFC~anulación~Parcial	https://98.200.10.131/axis2SFCColombia/services/SFC_P7FA2800WS.SFC_P7FA2800WSHttpsSoap11Endpoint/
+079-ABR~Risk~Assessment	https://integracion-bfco-qa.fif.tech/fraud-and-aml-risks/v1/customer/transaction-risk-assessment
+081-FLX~-~CHQG~Web	https://banco-co-fcc-qa-priv.fif.tech/FCUBSDDService/FCUBSDDService?wsdl
+082-FLX~DAP~Anulación~CloseTDAcc	https://banco-co-fcc-qa-priv.fif.tech/FCUBSTDService/FCUBSTDService?wsdl
+105-SFC~Anulación~de~Anula.Parcial	https://98.200.10.131/axis2SFCColombia/services/SFC_P7FA2801WS.SFC_P7FA2801WSHttpsSoap11Endpoint/
+113-IBN:~Transf.~otro~banco~COL	https://mdwbfcouat.falabella.cl/banco/producer/OMN/Banking/TransferenciasTerceros/v1.0/OMNBankingTransferenciasTercerosPortIMPL
+114-IBN:~Reversa~transf.otro~banco	https://mdwbfcouat.falabella.cl/banco/producer/OMN/Banking/TransferenciasTercerosReversar/v1.0/OMNBankingTransferenciasTercerosReversarPortIMPL

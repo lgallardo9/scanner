@@ -1,0 +1,3 @@
+KAFKA-KEY https://vault.fif.tech:8200
+KAFKA-PRODUCER http://bootstrap.dcc.eventmesh.falabella.cl:30032
+KAFKA-PRODUCER http://bootstrap.cdlv.eventmesh.falabella.cl:30032
