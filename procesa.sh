@@ -1,5 +1,5 @@
 #!/bin/bash
-HOSTNAME=$(hostname | cut -b -30)
+HOSTNAME=${1:0:2}$(hostname | cut -b -30)
 env=$HOSTNAME
 FECHAEJECUCION=$(date +'%Y-%m-%d %H:%M:%S')
 FECHAARCHIVOLOG=$(date +'%Y%m%d%H%M%S')
@@ -23,7 +23,9 @@ pruebaConexion() {
     if [ $? -eq 1 ]; then
         DEST=${1//\~/ }
         CAPA=${DEST:0:5}
-        DEST=${DEST:5}
+#        DEST=${DEST:5}
+        DEST=$(echo $1 | awk -F^ '{print $1}')
+        
         NOMBRELOG="log/conexion/"${HOSTNAME}_${FECHAARCHIVOLOG}_${DEST//\ /_}".log"
         
         echo -n -e "curl -v -m 2 " $URL "\n" >"$NOMBRELOG" 2>&1
