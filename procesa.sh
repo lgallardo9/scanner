@@ -1,5 +1,9 @@
 #!/bin/bash
-HOSTNAME=${1:0:2}$(hostname | cut -b -30)
+#PEFRTFCERT02-SocketCliente.csv
+#PESWTFDESA01-SocketCliente.csv
+
+#HOSTNAME=${1:0:2}$(hostname | cut -b -30)
+HOSTNAME=${1:0:12}
 env=$HOSTNAME
 FECHAEJECUCION=$(date +'%Y-%m-%d %H:%M:%S')
 FECHAARCHIVOLOG=$(date +'%Y%m%d%H%M%S')
