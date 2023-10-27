@@ -23,10 +23,10 @@ pruebaConexion() {
     if [ $? -eq 1 ]; then
         DEST=${1//\~/ }
         CAPA=${DEST:0:5}
-#        DEST=${DEST:5}
-        DEST=$(echo $1 | awk -F^ '{print $1}')
+        DEST=${DEST:5}
+        DESTFILE=$(echo $1 | awk -F^ '{print $1}')
         
-        NOMBRELOG="log/conexion/"${HOSTNAME}_${FECHAARCHIVOLOG}_${DEST//\ /_}".log"
+        NOMBRELOG="log/conexion/"${HOSTNAME}_${FECHAARCHIVOLOG}_${DESTFILE//\ /_}".log"
         
         echo -n -e "curl -v -m 2 " $URL "\n" >"$NOMBRELOG" 2>&1
 

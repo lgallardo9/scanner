@@ -46,3 +46,4 @@ SWTWSCOFDESA01FLX-004-01^FLX~-~Flex~WebService~Pago~AbonoFacturado	http://10.139
 SWTWSCOFDESA01FLX-003-01^FLX~-~Flex~WebService~Anulación~Pago	http://10.139.1.81:7003/FCUBSCLService/FCUBSCLService?wsdl
 SWTWSCOFDESA01FLX-002-01^FLX~-~Flex~WebService~Pago~Castigada	http://10.139.1.81:7003/FCUBSCLService/FCUBSCLService?wsdl
 SWTWSCOFDESA01API-066-01^APIGee	https://integracion-bfco-qa.fif.tech/oauth/cc/token
+SWTIPCOFDESA0xNRT-01^NRT~-~Near~Real~Time~Fraude	10.139.12.136	32003
