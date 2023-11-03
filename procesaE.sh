@@ -39,14 +39,15 @@ pruebaConexion() {
         curl -v -m 2 $URL >>"$NOMBRELOG" 2>&1
 #        if curl -v -m 2 $URL 2>&1 |grep -i connected >/dev/null 2>&1; then
         if cat $NOMBRELOG  |grep -i connected >/dev/null 2>&1; then
-            echo -n -e $CAPA" "$DEST"->"$URL"\033[32m \t->Ok"
+#            echo -n -e $CAPA" "$DEST"->"$URL"\033[32m \t->Ok"
             echo   $PREFIJO","$FECHAEJECUCION","$CAPA","$DEST","$URL",Ok" >> $NOMBREARCHIVO
-
+        
         else 
             echo -n -e  $CAPA" "$DEST"->"$URL"\033[31m \t->Error"
             echo   $PREFIJO","$FECHAEJECUCION","$CAPA","$DEST","$URL",Error" >> $NOMBREARCHIVO
+            echo -e "\033[30m"
         fi
-        echo -e "\033[30m"
+
     fi     
 }
 

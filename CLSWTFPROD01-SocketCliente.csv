@@ -1,0 +1,21 @@
+SWTIPCLFPROD01FCC-01^FCC~-~BFCL~-~FlexCube~ISO~BCO	10.1.72.16	9103
+SWTIPCLFPROD01FCC-02^FCC~-~BFCL~-~FlexCube~ISO~BCO	10.1.73.16	9103
+SWTIPCLFPROD01FC2-01^FCC~-~BFCL~-~FlexCube~ISO~BCO	10.1.72.16	9100
+SWTIPCLFPROD01FC2-02^FCC~-~BFCL~-~FlexCube~ISO~BCO	10.1.73.16	9100
+SWTIPCLFPROD01FC2-01^FCC~-~BFCL~-~FlexCube~ISO~BCO	10.1.72.16	9101
+SWTIPCLFPROD01FC2-02^FCC~-~BFCL~-~FlexCube~ISO~BCO	10.1.73.16	9101
+SWTIPCLFPROD01FC2-01^FCC~-~BFCL~-~FlexCube~ISO~BCO	10.1.72.16	9102
+SWTIPCLFPROD01FC2-02^FCC~-~BFCL~-~FlexCube~ISO~BCO	10.1.73.16	9102
+SWTWSCLFPROD01FLX-002^FLX~FLX~Pago~Flexcube	https://flexcore.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFPROD01FLX-003^FLX~FLX~Anulación~Pago	https://flexcore.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFPROD01FLX-059^FLX~FLX~Pago~Flexcube~Chile	https://flexcore.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFPROD01FLX-004^FLX~FLX~Abono~Pago	https://flexcore.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFPROD01FLX-020^FLX~FLX~Fecha~vencimiento~Pagos	https://flexcore.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFPROD01FLX-058^FLX~Serv~Consulta~x~contrato~FLX	https://flexcore.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFPROD01FLX-057^FLX~Serv~Consulta~x~Rut~FLX	https://flexcore.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFPROD01FLX-018^FLX~Flexcube~Crédito~de~consumo	https://flexcore.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFPROD01FLX-060^FLX~FLX~Anulación~Pago~Chile	https://flexcore.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFPROD01FLX-015^FLX~FLX~Deuda~Total~Pago	https://flexcore.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFPROD01FLX-016^FLX~FLX~Reducción~Cuota~Pago	https://flexcore.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFPROD01FLX-017^FLX~FLX~Reducción~Plazo~Pago	https://flexcore.falabella.cl/FCUBSCLService/FCUBSCLService?wsdl
+SWTWSCLFPROD01FLX-C74^FLX~Notifica~bloqueo~a~FLX.~CHL	https://flexcore.falabella.cl/FCUBSCoreService/FCUBSCoreService?wsdl

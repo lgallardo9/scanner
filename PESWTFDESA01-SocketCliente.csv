@@ -1,18 +1,3 @@
-SWTWSPEFDESA01PMS-070-01^PMS-~Core~Pismo~Payments~Interoperability	https://payments-wallet-qa-priv.fpayapp.com/api-interoperability/v1/funds-in
-SWTWSPEFDESA01PMS-070-02^PMS-~Core~Pismo~Payments~Interoperability~reverse	https://payments-wallet-qa-priv.fpayapp.com/api-interoperability/v1/funds-in/reverse
-SWTIPPEFDESA01FC2-01^FC2-FC2PER-FP~-~FlexCube~ISO~Pasivos~Corporativo	10.217.41.56	9000
-SWTIPPEFDESA01GNG-01^GNG-GENPE04-FP~-~Autorizador~Gogonogo~Corporativo	10.217.122.62	5002
-SWTIPPEFDESA01GNG-02^GNG-GEPEN05-FP~-~Autorizador~Gogonogo~Corporativo	10.217.122.62	5003
-SWTIPPEFDESA01NRT-01^NRT-NRTPER-FP~-~Near~Real~Time~Fraude~Corporativo	10.139.12.136	32002
-SWTIPPEFDESA01PYT-01^PYT-PYTPER-FP~-~Autorizador~Paytrue~Corporativo	10.245.132.35	6011
-SWTWSPEFDESA01P22-P22-01^P22-Bloqueo~de~tarjeta~SAT~Perú.	http://10.140.40.90:7013/axis2/services/SAT_TIMOBLOWS?wsdl
-SWTWSPEFDESA01P74-P74-01^P74-Notifica~bloqueo~a~FLX~Perú.	http://10.139.1.81:7003/FCUBSCoreService/FCUBSCoreService?wsdl
-SWTIPPEFDESA01SAT-01^SAT-SATPER2-FP~-~Autorizador~Crédito~Corporativo	10.140.40.95	5247
-SWTIPPEFDESA01UBS-01^UBS-LNKUBS-Unibanca~PSP~Perú	172.24.9.102	20163
-SWTWSPEFDESA01V01-V01-01^V01-Prueba~para~VROL	https://certservicesgateway.visaonline.com
-SWTWSPEFDESA01V02-V02-01^V02-VROL~Transaction~Inquiry	https://mutualcertservicesgateway.visa.com/rsrv_rolti-mte2/api/submitTranInquiry
-SWTWSPEFDESA01V03-V03-01^V03-VROL~InitiateDispute	https://mutualcertservicesgateway.visa.com/websrv_rolti/mte2/RTSIService
-SWTWSPEFDESA01WV2-WV2-01^WV2-Liquidación~DAP~-~FLX	http://10.139.1.200:7003/FCUBSTDService/FCUBSTDService?wsdl
 SWTWSPEFDESA01001-001-01^001-Mensaje~de~Control~Flex	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
 SWTWSPEFDESA01002-002-01^002-FLX~Pago~Flexcube	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
 SWTWSPEFDESA01003-003-01^003-FLX~Anulación~Pago	https://10.217.41.3/FCUBSCLService/FCUBSCLService?WSDL
@@ -42,7 +27,6 @@ SWTWSPEFDESA01040-040-01^040-WS~Prepago~Cajas~Corp.~FLALAMA	http://10.140.40.94:
 SWTWSPEFDESA01041-041-01^041-WS~Prepago~Cajas~Corp.~OPALAMA	http://10.140.40.90:7003/axis2/services/SAT_OPALAMAWS
 SWTWSPEFDESA01043-043-01^043-Refinanciamiento~EJB-SAT	http://10.140.40.94:7003/BCO_CORP_SAT_RefinanciamientoAPP_v1.0/satRefinanciemientoPt?wsdl
 SWTWSPEFDESA01044-044-01^044-Refinanciamiento~EJB-FLEX	https://10.217.41.3/BCO_CORP_FCC_RefinanciamientoAPP_v1.0/fccRefinanciemientoPt?wsdl
-SWTIPPEFDESA01045-01^045-Acuerdo~de~Pago.~Refinanciami.	Dir	0
 SWTWSPEFDESA01046-046-01^046-Creación~DAP~-~FLX~Renta~perio	https://10.217.41.3/FCUBSTDService/FCUBSTDService
 SWTWSPEFDESA01047-047-01^047-DAP~LIQUIDACIÓN	https://10.217.41.3/FCUBSTDService/FCUBSTDService
 SWTWSPEFDESA01048-048-01^048-DAP~Liquidación~ReverseTDRedem	https://10.217.41.3/FCUBSTDService/FCUBSTDService
@@ -60,10 +44,9 @@ SWTWSPEFDESA01062-062-01^062-Extorno~Pago~Deuda~GLOBOKAS	https://pdsglobokas-qa.
 SWTWSPEFDESA01063-063-01^063-Autorización~WS~JSON~VISANET	https://172.22.254.140:7004/api.authorization/v3/authorization/ecommerce/332970481
 SWTWSPEFDESA01064-064-01^064-Anulación~WS~JSON~VISANET	https://172.22.254.140:7004/api.authorization/v3/reverse/ecommerce/332970481
 SWTWSPEFDESA01065-065-01^065-Anulación~Pago~SAV~CWS	http://10.140.40.12:7005/axis2/services/SAT_FLANSAVWS?wsdl
-SWTWSPEFDESA01066-066-01^066-Servicio~Consumo~APIGEE	https://integracion-bfcl-test.fif.tech:5443/oauth/cc/token
 SWTWSPEFDESA01067-067-01^067-Transferencia~Ordinarias~TIA	https://172.22.245.235:7004/services/TransferenciaLinea
-SWTWSPEFDESA01068-068-01^068-Notifica~Cambios~de~PIN~BFPE	http://10.140.0.215:10010/web/services/AZ7_NOTIFICA_CAMBIOPIN_SWITCH42Service/AZ7_NOTIFICA_CAMBIOPIN_SWITCH42?wsdl
-SWTWSPEFDESA01069-069-01^069-Notifica~Bloqueo~Tarjeta~BFPE	http://10.140.0.215:10010/web/services/AZ7_NOTIFICA_BLOQUEO_SWITCH42Service/AZ7_NOTIFICA_BLOQUEO_SWITCH42?wsdl
+SWTWSPEFDESA01068-068-01^068-Notifica~Cambios~de~PIN~BFPE	http://10.139.12.136:10010/web/services/AZ7_NOTIFICA_CAMBIOPIN_SWITCH42Service/AZ7_NOTIFICA_CAMBIOPIN_SWITCH42?wsdl
+SWTWSPEFDESA01069-069-01^069-Notifica~Bloqueo~Tarjeta~BFPE	http://10.139.12.136:10010/web/services/AZ7_NOTIFICA_BLOQUEO_SWITCH42Service/AZ7_NOTIFICA_BLOQUEO_SWITCH42?wsdl
 SWTWSPEFDESA01070-070-01^070-Abono~Cuenta~Básica~CORE~PISMO	https://172.22.254.150/api-interoperability/v1/funds-in
 SWTWSPEFDESA01071-071-01^071-Devolución~Abono~CORE~PISMO	https://payments-wallet-qa-priv.fif.tech/acquirer-transaction/api-core-banking/acquirer-core-banking/v1/funds-in
 SWTWSPEFDESA01072-072-01^072-Transferencia~Diferida~ETRAN	https://sistematransferenciascanjes-test.falabella.com/bfpe/api/bftc/transferencia/interbancaria/salida/soap/TransferenciaInterbancariaService
@@ -83,7 +66,18 @@ SWTWSPEFDESA01086-086-01^086-Consulta~de~punto~SFC	https://98.200.10.131/axis2SF
 SWTWSPEFDESA01104-104-01^104-FLX-Corrección~Crédito~Consumo	https://10.217.41.3/BCO_CORP_FCC_BackOfficeAPP_v1.0/fccBackOfficePt?wsdl
 SWTWSPEFDESA01105-105-01^105-SFC~Anulación~de~Anula.Parcial	https://sfcfalabellaqa.procesadoraindra.local/axis2SFCPeru/services/SFC_P7FA2801WS.SFC_P7FA2801WSHttpsSoap12Endpoint/
 SWTWSPEFDESA01106-106-01^106-Reversa~de~TIN-ETRAN	http://172.22.245.208:7003/bfpe/api/bftc/transferencia/interbancaria/salida/soap/TransferenciaInterbancariaService
-SWTWSPEFDESA01108-108-01^108-Pago~de~Servicios~con~CLARO	http://172.24.9.101:8080/ServiciosClaro/services/ServiciosClaro.ServiciosClaroHttpSoap11Endpoint/
-SWTWSPEFDESA01109-109-01^109-Pago~Servic~Claro~Reversa~RTO	http://172.24.9.101:8080/ServiciosClaro/services/ServiciosClaro.ServiciosClaroHttpSoap11Endpoint/
 SWTWSPEFDESA01111-111-01^111-Web~Service~OPALINM	http://10.140.40.94:7003/axis2/services/SAT_OPALINMWS?wsdl
 SWTWSPEFDESA01112-112-01^112-Wer~Service~FLCOSCC	http://10.140.40.94:7003/axis2/services/SAT_FLCOSCCWS?wsdl
+SWTIPPEFDESA01FC2-01^FC2-FC2PER-FP~-~FlexCube~ISO~Pasivos~Corporativo	10.217.41.56	9000
+SWTIPPEFDESA01GNG-01^GNG-GENPE04-FP~-~Autorizador~Gogonogo~Corporativo	10.217.122.62	5002
+SWTIPPEFDESA01GNG-02^GNG-GEPEN05-FP~-~Autorizador~Gogonogo~Corporativo	10.217.122.62	5003
+SWTIPPEFDESA01NRT-01^NRT-NRTPER-FP~-~Near~Real~Time~Fraude~Corporativo	10.139.12.136	32002
+SWTWSPEFDESA01P22-P22-01^P22-Bloqueo~de~tarjeta~SAT~Perú.	http://10.140.40.90:7013/axis2/services/SAT_TIMOBLOWS?wsdl
+SWTWSPEFDESA01P74-P74-01^P74-Notifica~bloqueo~a~FLX~Perú.	http://10.139.1.81:7003/FCUBSCoreService/FCUBSCoreService?wsdl
+SWTIPPEFDESA01PYT-01^PYT-PYTPER-FP~-~Autorizador~Paytrue~Corporativo	10.245.132.35	6011
+SWTIPPEFDESA01SAT-01^SAT-SATPER2-FP~-~Autorizador~Crédito~Corporativo	10.140.40.95	5247
+SWTIPPEFDESA01UBS-01^UBS-LNKUBS-Unibanca~PSP~Perú	172.24.9.102	20163
+SWTWSPEFDESA01V01-V01-01^V01-Prueba~para~VROL	https://certservicesgateway.visaonline.com
+SWTWSPEFDESA01V02-V02-01^V02-VROL~Transaction~Inquiry	https://mutualcertservicesgateway.visa.com/rsrv_rolti-mte2/api/submitTranInquiry
+SWTWSPEFDESA01V03-V03-01^V03-VROL~InitiateDispute	https://mutualcertservicesgateway.visa.com/websrv_rolti/mte2/RTSIService
+SWTWSPEFDESA01WV2-WV2-01^WV2-Liquidación~DAP~-~FLX	http://10.139.1.200:7003/FCUBSTDService/FCUBSTDService?wsdl
