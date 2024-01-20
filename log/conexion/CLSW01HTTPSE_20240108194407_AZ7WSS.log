@@ -1,0 +1,30 @@
+curl -v -m 2  10.140.0.215:10010 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.140.0.215:10010...
+* Connected to 10.140.0.215 (10.140.0.215) port 10010 (#0)
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0> GET / HTTP/1.1
+> Host: 10.140.0.215:10010
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 403 Forbidden
+< Date: Mon, 08 Jan 2024 23:44:59 GMT
+< Server: Apache
+< Content-Length: 227
+< Connection: close
+< Content-Type: text/html; charset=UTF-8
+< 
+{ [227 bytes data]
+100   227  100   227    0     0   1349      0 --:--:-- --:--:-- --:--:--  1392
+* Closing connection 0
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>403 Prohibido</TITLE>
+</HEAD><BODY>
+<H1>Prohibido</H1>
+Prohibido - por norma.
+<P>No tiene permiso para acceder a / 
+ en este servidor.<br />
+</body></html>

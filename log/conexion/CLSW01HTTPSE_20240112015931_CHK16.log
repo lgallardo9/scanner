@@ -1,0 +1,22 @@
+curl -v -m 2  10.140.0.215:12331 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.140.0.215:12331...
+* Connected to 10.140.0.215 (10.140.0.215) port 12331 (#0)
+> GET / HTTP/1.1
+> Host: 10.140.0.215:12331
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0* Mark bundle as not supporting multiuse
+< HTTP/1.1 404 Not Found
+< Date: Fri, 12 Jan 2024 06:00:30 GMT
+< Server: Apache
+< Content-Length: 358
+< Connection: close
+< Content-Type: text/html; charset=UTF-8
+< 
+{ [358 bytes data]
+100   358  100   358    0     0    251      0  0:00:01  0:00:01 --:--:--   251100   358  100   358    0     0    251      0  0:00:01  0:00:01 --:--:--   251
+* Closing connection 0
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"><html><head><title>404 Not Found</title></head><body><h1>Not Found</h1><p>This port is reserved for IBM Db2 Web Query for i. The log-in page for Web Query is at http://[system]:12331/webquery. If you received this message while accessing the log-in page, please wait a minute and try again.</p></body></html>

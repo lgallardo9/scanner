@@ -4,6 +4,11 @@
 
 #HOSTNAME=${1:0:2}$(hostname | cut -b -30)
 HOSTNAME=$(hostname | cut -b -30)
+if [[ $HOSTNAME == *".local"* ]]; then
+  echo "LOCALHOST"
+  HOSTNAME="LOCALHOST"
+fi
+
 env=$HOSTNAME
 PREFIJO=${1:0:12}
 FECHAEJECUCION=$(date +'%Y-%m-%d %H:%M:%S')

@@ -1,5 +1,5 @@
 SWTWSCLFDESA01ABR-079-01^ABR~-~CORP~-~ABR~Risk~Assessment	https://integracion-bfcl-qa.fif.tech/fraud-and-aml-risks/v1/customer/transaction-risk-assessment
-SWTIPCLFDESA01AES-01^AES-API~AES~Cipher	http://fdesa01.falabella.com:4000/api/cipher
+SWTIPCLFDESA01AES-01^AES-API~AES~Cipher	http://fdesa01.falabella.com:4000/api/cipher	
 SWTIPCLFDESA01CCO-01^CCO~-~BFCL-CCA~Originadora~IFO	172.20.200.71	27051
 SWTIPCLFDESA01CCO-02^CCO~-~BFCL-CCA~Originadora~IFO	172.20.200.71	28051
 SWTIPCLFDESA01CCO-03^CCO~-~BFCL-CCA~Originadora~IFO	172.20.200.71	29051
@@ -55,9 +55,7 @@ SWTIPCLFDESA01GNG-02^GNG~-~Autorizador~Gogonogo	10.217.123.47	5003
 SWTWSCLFDESA01KF1-KF1-01^KF1-KEY~Valult	https://vault.fif.tech:8200
 SWTWSCLFDESA01KF2-KF2-01^KF2-PRODUCER1~Kafka~DCC	http://bootstrap.dcc.eventmesh.falabella.cl:30027
 SWTWSCLFDESA01KF3-KF3-01^KF3-PRODUCER2~Kafka~CDLV	http://bootstrap.cdlv.eventmesh.falabella.cl:30027
-SWTIPCLFDESA01MCT-01^MCT~-~BFCL~-Tokenización~MasterCard~Google~PAY	10.98.15.55	6037
 SWTIPCLFDESA01MCT-02^MCT~-~BFCL~-Tokenización~MasterCard~Google~PAY	98.200.14.228	6037
-SWTIPCLFDESA01MCT-03^MCT~-~BFCL~-Tokenización~MasterCard~Google~PAY	98.200.14.229	6037
 SWTIPCLFDESA01NRT-01^NRT~-~CORP~-~Paytrue~Near~Real~Time	10.139.12.136	32001
 SWTIPCLFDESA01Pru-01^Pruebas~Mirror~Bank~-~assay	10.0.111.147	8081
 SWTIPCLFDESA01PYT-01^PYT~-~CORP~-~Autorizador~Paytrue	10.139.0.130	6111

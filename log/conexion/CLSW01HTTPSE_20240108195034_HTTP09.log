@@ -1,0 +1,28 @@
+curl -v -m 2  10.140.0.215:18002 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.140.0.215:18002...
+* Connected to 10.140.0.215 (10.140.0.215) port 18002 (#0)
+> GET / HTTP/1.1
+> Host: 10.140.0.215:18002
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 401 Unauthorized
+< Date: Mon, 08 Jan 2024 23:51:27 GMT
+< Server: Apache
+< WWW-Authenticate: Basic realm="Centro de Información de Clientes"
+< Content-Length: 223
+< Content-Type: text/html; charset=UTF-8
+< 
+{ [223 bytes data]
+100   223  100   223    0     0   1765      0 --:--:-- --:--:-- --:--:--  1873
+* Connection #0 to host 10.140.0.215 left intact
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>401 Se requiere autorización</TITLE>
+</HEAD><BODY>
+<H1>Se requiere autorización</H1>
+Sin autorización - la autenticación ha fallado.
+</body></html>
