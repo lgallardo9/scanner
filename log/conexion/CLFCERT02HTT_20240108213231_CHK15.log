@@ -1,14 +1,0 @@
-curl -v -m 2  10.139.8.138:40001 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.139.8.138:40001...
-* Connected to 10.139.8.138 (10.139.8.138) port 40001 (#0)
-> GET / HTTP/1.1
-> Host: 10.139.8.138:40001
-> User-Agent: curl/7.87.0
-> Accept: */*
-> 
-* Received HTTP/0.9 when not allowed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-* Closing connection 0
-curl: (1) Received HTTP/0.9 when not allowed

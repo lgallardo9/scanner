@@ -1,0 +1,16 @@
+curl -v -m 2  10.139.2.56:20020 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.139.2.56:20020...
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0* Connection timed out after 2004 milliseconds
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Connection timed out after 2004 milliseconds
+curl -v -m 2  10.139.2.56:20021 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.139.2.56:20021...
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0* Connection timed out after 2002 milliseconds
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Connection timed out after 2002 milliseconds

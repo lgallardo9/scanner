@@ -1,0 +1,9 @@
+<table class="wrapped">
+  <colgroup> <col/> <col/> <col/> <col/> </colgroup>
+  <tbody>
+    <tr>
+      <th scope="col">CANAL</th>
+      <th scope="col">VIP</th>
+      <th scope="col">PUERTOS</th>
+      <th scope="col">EVIDENCIAS</th>
+    </tr>

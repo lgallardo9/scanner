@@ -1,0 +1,36 @@
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Red</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION FALLIDA</ac:parameter>
+ </ac:structured-macro>
+
+<p>BCOCNL</p>
+</div></td>
+<td>BCOIP</td>
+<td>BCOPORT</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(x) 2024-03-04 12:21:24 10.139.2.54:30216</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.54:30216 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.139.2.54:30216...
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0* Connection timed out after 2005 milliseconds
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Connection timed out after 2005 milliseconds
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>

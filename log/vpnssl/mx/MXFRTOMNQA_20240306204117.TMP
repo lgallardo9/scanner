@@ -1,0 +1,24 @@
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-06 20:41:17 10.139.2.27:10201</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.27:10201 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.27:10201...
+* Connected to 10.139.2.27 (10.139.2.27) port 10201 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.27:10201
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+* Empty reply from server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (52) Empty reply from server
+
+]]></ac:plain-text-body>
+</ac:structured-macro>

@@ -1,0 +1,15 @@
+curl -v -m 2  10.139.2.65:30227 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.65:30227...
+* Connected to 10.139.2.65 (10.139.2.65) port 30227 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.65:30227
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+* Empty reply from server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (52) Empty reply from server

@@ -1,0 +1,9 @@
+curl -v -m 2  10.139.2.61:30223 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.139.2.61:30223...
+* connect to 10.139.2.61 port 30223 failed: Connection refused
+* Failed to connect to 10.139.2.61 port 30223 after 24 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to 10.139.2.61 port 30223 after 24 ms: Couldn't connect to server

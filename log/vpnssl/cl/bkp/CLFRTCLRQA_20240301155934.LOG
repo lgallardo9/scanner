@@ -1,0 +1,31 @@
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Red</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION FALLIDA</ac:parameter>
+ </ac:structured-macro>
+
+<p>CLRCNL</p>
+</div></td>
+<td>CLRIP</td>
+<td>CLRPORT</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(x) 2024-03-01 15:59:34 Telcos:10.139.2.58</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  Telcos:10.139.2.58 
+* Closing connection -1
+curl: (3) URL using bad/illegal format or missing URL
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>

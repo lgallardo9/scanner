@@ -1,0 +1,42 @@
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Green</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION EXITOSA</ac:parameter>
+ </ac:structured-macro>
+
+<p>WEBCNL</p>
+</div></td>
+<td>WEBIP</td>
+<td>WEBPORT</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-01 14:45:33 10.139.2.75:30237</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.75:30237 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.139.2.75:30237...
+* Connected to 10.139.2.75 (10.139.2.75) port 30237 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.75:30237
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+* Received HTTP/0.9 when not allowed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (1) Received HTTP/0.9 when not allowed
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>

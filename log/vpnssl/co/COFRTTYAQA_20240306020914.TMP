@@ -1,0 +1,44 @@
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-06 02:09:14 10.139.2.77:20300</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.77:20300 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.77:20300...
+* Connected to 10.139.2.77 (10.139.2.77) port 20300 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.77:20300
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0*
+ Operation timed out after 2005 milliseconds with 0 bytes received
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Operation timed out after 2005 milliseconds with 0 bytes received
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(x) 2024-03-06 02:09:14 10.139.2.77:20410</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.77:20410 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.77:20410...
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0*
+ Connection timed out after 2001 milliseconds
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Connection timed out after 2001 milliseconds
+
+]]></ac:plain-text-body>
+</ac:structured-macro>

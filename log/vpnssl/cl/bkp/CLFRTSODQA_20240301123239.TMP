@@ -1,0 +1,23 @@
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-01 12:32:39 10.139.2.69:30231</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.69:30231 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.139.2.69:30231...
+* Connected to 10.139.2.69 (10.139.2.69) port 30231 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.69:30231
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Received HTTP/0.9 when not allowed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (1) Received HTTP/0.9 when not allowed
+
+]]></ac:plain-text-body>
+</ac:structured-macro>

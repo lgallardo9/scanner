@@ -1,14 +1,0 @@
-curl -v -m 2  10.139.6.32:16115 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.139.6.32:16115...
-* Connected to 10.139.6.32 (10.139.6.32) port 16115 (#0)
-> GET / HTTP/1.1
-> Host: 10.139.6.32:16115
-> User-Agent: curl/7.87.0
-> Accept: */*
-> 
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0* Operation timed out after 2004 milliseconds with 0 bytes received
-  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
-* Closing connection 0
-curl: (28) Operation timed out after 2004 milliseconds with 0 bytes received

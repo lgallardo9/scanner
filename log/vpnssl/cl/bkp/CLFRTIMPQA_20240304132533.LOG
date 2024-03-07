@@ -1,0 +1,37 @@
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Red</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION FALLIDA</ac:parameter>
+ </ac:structured-macro>
+
+<p>IMPCNL</p>
+</div></td>
+<td>IMPIP</td>
+<td>IMPPORT</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(x) 2024-03-04 13:25:33 10.139.2.61:30223</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.61:30223 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.139.2.61:30223...
+* connect to 10.139.2.61 port 30223 failed: Connection refused
+* Failed to connect to 10.139.2.61 port 30223 after 41 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to 10.139.2.61 port 30223 after 41 ms: Couldn't connect to server
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>

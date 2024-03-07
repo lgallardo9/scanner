@@ -1,9 +1,0 @@
-curl -v -m 2  10.139.6.32:16118 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.139.6.32:16118...
-* connect to 10.139.6.32 port 16118 failed: Connection refused
-* Failed to connect to 10.139.6.32 port 16118 after 50 ms: Couldn't connect to server
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-* Closing connection 0
-curl: (7) Failed to connect to 10.139.6.32 port 16118 after 50 ms: Couldn't connect to server

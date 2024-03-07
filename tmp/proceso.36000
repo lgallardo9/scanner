@@ -1,0 +1,9 @@
+curl -v -m 2  10.139.2.62:30224 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.139.2.62:30224...
+* connect to 10.139.2.62 port 30224 failed: Connection refused
+* Failed to connect to 10.139.2.62 port 30224 after 25 ms: Couldn't connect to server
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to 10.139.2.62 port 30224 after 25 ms: Couldn't connect to server

@@ -1,9 +1,0 @@
-curl -v -m 2  10.140.0.215:10053 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.140.0.215:10053...
-* connect to 10.140.0.215 port 10053 failed: Connection refused
-* Failed to connect to 10.140.0.215 port 10053 after 44 ms: Couldn't connect to server
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-* Closing connection 0
-curl: (7) Failed to connect to 10.140.0.215 port 10053 after 44 ms: Couldn't connect to server

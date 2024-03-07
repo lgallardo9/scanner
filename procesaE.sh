@@ -3,9 +3,33 @@
 #PESWTFDESA01-SocketCliente.csv
 
 #HOSTNAME=${1:0:2}$(hostname | cut -b -30)
+
+
+# Función para extraer una subcadena entre una posición y un delimitador
+# Uso: extract_substring <cadena> <posición_inicial> <delimitador>
+extract_substring() {
+  local cadena="$1"
+  local posicion_inicial="$2"
+  local delimitador="$3"
+    # Extraer la subcadena desde la posición inicial hasta el delimitador
+    local subcadena="${cadena:$posicion_inicial}"
+    subcadena="${subcadena%%$delimitador*}"
+
+    echo "$subcadena"
+}
+
 HOSTNAME=$(hostname | cut -b -30)
 env=$HOSTNAME
-PREFIJO=${1:0:12}
+
+# Ejemplo de uso
+# mi_cadena="Esto es un ejemplo de cadena. Delimitador: |"
+# posicion_inicial=10
+# delimitador="|"
+
+PREFIJO=$(extract_substring $1 0 "-")
+#echo "Subcadena extraída: $posfinal"
+
+#PREFIJO=${1:0:12}
 FECHAEJECUCION=$(date +'%Y-%m-%d %H:%M:%S')
 FECHAARCHIVOLOG=$(date +'%Y%m%d%H%M%S')
 NOMBREARCHIVO="log/"${PREFIJO}_$(date +'%Y%m%d%H%M%S')".TXT"

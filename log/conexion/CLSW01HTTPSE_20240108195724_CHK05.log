@@ -1,5 +1,0 @@
-curl -v -m 2  10.140.0.215:10064 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 10.140.0.215:10064...
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0

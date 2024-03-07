@@ -1,0 +1,40 @@
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Red</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION FALLIDA</ac:parameter>
+ </ac:structured-macro>
+
+<p>CVPCNL</p>
+</div></td>
+<td>CVPIP</td>
+<td>CVPPORT</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(x) 2024-03-06 01:21:37 10.139.2.59:30221</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.59:30221 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.59:30221...
+* connect to 10.139.2.59 port 30221 failed: Connection refused
+* Failed to connect to 10.139.2.59 port 30221 after 48 ms: Couldn't connect to s
+erver
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to 10.139.2.59 port 30221 after 48 ms: Couldn't conn
+ect to server
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>

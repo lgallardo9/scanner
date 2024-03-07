@@ -1,0 +1,599 @@
+<table class="wrapped">
+  <colgroup> <col/> <col/> <col/> <col/> </colgroup>
+  <tbody>
+    <tr>
+      <th scope="col">CANAL</th>
+      <th scope="col">VIP</th>
+      <th scope="col">PUERTOS</th>
+      <th scope="col">EVIDENCIAS</th>
+    </tr><tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Green</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION EXITOSA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>BCO - Conexión Backoffice Perú</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_001</br><br><strong>WO:</strong>REQ000004257912-WO0000003283920</br></p>
+</div></td>
+<td>10.139.2.12-10.139.8.136</td>
+<td>40011</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-06 23:22:24 10.139.2.17:40011</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.17:40011 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.17:40011...
+* Connected to 10.139.2.17 (10.139.2.17) port 40011 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.17:40011
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0*
+ Operation timed out after 2001 milliseconds with 0 bytes received
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Operation timed out after 2001 milliseconds with 0 bytes received
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Green</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION EXITOSA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>CBC - Conexión Caja Bancaria CORPORATIVA</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_001</br><br><strong>WO:</strong>REQ000004257912-WO0000003283920</br></p>
+</div></td>
+<td>10.139.2.20</td>
+<td>40006,65004</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-06 23:21:22 10.139.2.12:40006</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.12:40006 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.12:40006...
+* Connected to 10.139.2.12 (10.139.2.12) port 40006 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.12:40006
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0* 
+Operation timed out after 2001 milliseconds with 0 bytes received
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Operation timed out after 2001 milliseconds with 0 bytes received
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Green</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION EXITOSA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>CDB - Cálculo CVV2-Debito</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_001</br><br><strong>WO:</strong>REQ000004257912-WO0000003283920</br></p>
+</div></td>
+<td>10.139.2.11</td>
+<td>40014</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-06 23:27:04 10.139.2.20:40014</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.20:40014 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.20:40014...
+* Connected to 10.139.2.20 (10.139.2.20) port 40014 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.20:40014
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0* 
+Operation timed out after 2002 milliseconds with 0 bytes received
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Operation timed out after 2002 milliseconds with 0 bytes received
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Green</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION EXITOSA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>CVP - Cálculo CVV2-Credito</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_001</br><br><strong>WO:</strong>REQ000004257912-WO0000003283920</br></p>
+</div></td>
+<td>10.139.2.13</td>
+<td>40005</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-06 23:28:02 10.139.2.11:40005</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.11:40005 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.11:40005...
+* Connected to 10.139.2.11 (10.139.2.11) port 40005 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.11:40005
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0*
+ Operation timed out after 2003 milliseconds with 0 bytes received
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Operation timed out after 2003 milliseconds with 0 bytes received
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Red</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION FALLIDA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>FAP - Conexión tiendas Falabella POS PERU</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_001</br><br><strong>WO:</strong>REQ000004257912-WO0000003283920</br></p>
+</div></td>
+<td>10.139.8.136             10.139.8.138             F5 10.245.229.10  </td>
+<td>40007</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(x) 2024-03-06 23:28:54 10.139.2.13:40007</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.13:40007 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.13:40007...
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0*
+ Connection timed out after 2001 milliseconds
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Connection timed out after 2001 milliseconds
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Green</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION EXITOSA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>OMN - FP - Omnichanel Corporativo</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_002</br><br><strong>WO:</strong>REQ000004257913-WO0000003283921</br></p>
+</div></td>
+<td>10.139.2.10</td>
+<td>40004</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-06 23:33:35 10.139.2.10:40004</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.10:40004 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.10:40004...
+* Connected to 10.139.2.10 (10.139.2.10) port 40004 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.10:40004
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+* Empty reply from server
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (52) Empty reply from server
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Green</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION EXITOSA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>PMT - FP - Payments Corporativo</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_002</br><br><strong>WO:</strong>REQ000004257913-WO0000003283921</br></p>
+</div></td>
+<td>10.139.2.16</td>
+<td>40015</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-06 23:35:33 10.139.2.19:40015</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.19:40015 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.19:40015...
+* Connected to 10.139.2.19 (10.139.2.19) port 40015 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.19:40015
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+* Empty reply from server
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (52) Empty reply from server
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Green</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION EXITOSA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>PVF - Puntos Viajes Falabella</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_002</br><br><strong>WO:</strong>REQ000004257913-WO0000003283921</br></p>
+</div></td>
+<td>10.139.2.18</td>
+<td>40010</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-06 23:36:32 10.139.2.16:40010</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.16:40010 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.16:40010...
+* Connected to 10.139.2.16 (10.139.2.16) port 40010 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.16:40010
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0*
+ Operation timed out after 2003 milliseconds with 0 bytes received
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Operation timed out after 2003 milliseconds with 0 bytes received
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Green</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION EXITOSA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>QPY - FP - QuickPay Corporativo</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_002</br><br><strong>WO:</strong>REQ000004257913-WO0000003283921</br></p>
+</div></td>
+<td>10.139.2.15</td>
+<td>40012</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-06 23:37:37 10.139.2.18:40012</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.18:40012 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.18:40012...
+* Connected to 10.139.2.18 (10.139.2.18) port 40012 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.18:40012
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+* Empty reply from server
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (52) Empty reply from server
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Green</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION EXITOSA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>SDM - Sodimac</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_002</br><br><strong>WO:</strong>REQ000004257913-WO0000003283921</br></p>
+</div></td>
+<td>10.139.2.8</td>
+<td>40009</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-06 23:38:27 10.139.2.15:40009</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.15:40009 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.15:40009...
+* Connected to 10.139.2.15 (10.139.2.15) port 40009 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.15:40009
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0*
+ Operation timed out after 2003 milliseconds with 0 bytes received
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Operation timed out after 2003 milliseconds with 0 bytes received
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Green</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION EXITOSA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>TIB - Conexión con TIB</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_003</br><br><strong>WO:</strong>REQ000004257915-WO0000003283922</br></p>
+</div></td>
+<td>10.245.229.10</td>
+<td>40002</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(/) 2024-03-06 23:53:16 10.139.2.8:40002</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.8:40002 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.8:40002...
+* Connected to 10.139.2.8 (10.139.2.8) port 40002 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.8:40002
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0*
+ Operation timed out after 2004 milliseconds with 0 bytes received
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Operation timed out after 2004 milliseconds with 0 bytes received
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Red</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION FALLIDA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>TIN - Canal TIN</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_003</br><br><strong>WO:</strong>REQ000004257915-WO0000003283922</br></p>
+</div></td>
+<td>10.245.229.10</td>
+<td>40001</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(x) 2024-03-06 23:54:45 10.139.8.136:40500</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.8.136:40500 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.8.136:40500...
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0*
+ Connection timed out after 2001 milliseconds
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Connection timed out after 2001 milliseconds
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="c03123e1-5274-430d-8897-ea5b5de32894" ac:name="status" ac:schema-version="1">
+ <ac:parameter ac:name="colour">Red</ac:parameter>
+ <ac:parameter ac:name="title">CONEXION FALLIDA</ac:parameter>
+ </ac:structured-macro>
+
+<p><br><strong>TOP - FRONT Totus 4.2</strong></br><br><strong>Formulario VPN:</strong>BFPE_VPNSSL_P9_003</br><br><strong>WO:</strong>REQ000004257915-WO0000003283922</br></p>
+</div></td>
+<td>LINKUBAF1     172.24.4.182         Apagado -LNKUBAF1      172.24.9.102   1     Activo -IP 2: 172.24.9.107  -Firewall vsys1 Peru  NAT DST 172.25.36.6    1 -Firewall vsys1 Peru  NAT DST 172.25.36.27  2 -Firewall vsys3 Peru -NAT SRC 172.24.6.138  1 -Firewall vsys1 Peru  NAT SRC 172.24.6.140  2 -bancared</td>
+<td>40008</td>
+<td>
+<div class="content-wrapper">
+<ac:structured-macro ac:macro-id="a277927d-f459-4d1c-9ee3-fa21f03f6003" ac:name="code" ac:schema-version="1">
+<ac:parameter ac:name="language">powershell</ac:parameter>
+<ac:parameter ac:name="theme">Emacs</ac:parameter>
+<ac:parameter ac:name="title">(x) 2024-03-06 23:56:41 10.139.2.14:40008</ac:parameter>
+<ac:parameter ac:name="collapse">true</ac:parameter>
+<ac:plain-text-body><![CDATA[
+curl -v -m 2  10.139.2.14:40008 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.14:40008...
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0*
+ Connection timed out after 2004 milliseconds
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+* Closing connection 0
+curl: (28) Connection timed out after 2004 milliseconds
+
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+</div>
+</td>
+</tr>
+  </tbody>
+</table>

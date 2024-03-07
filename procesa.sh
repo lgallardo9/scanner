@@ -3,6 +3,21 @@
 #PESWTFDESA01-SocketCliente.csv
 
 #HOSTNAME=${1:0:2}$(hostname | cut -b -30)
+
+
+# Función para extraer una subcadena entre una posición y un delimitador
+# Uso: extract_substring <cadena> <posición_inicial> <delimitador>
+extract_substring() {
+  local cadena="$1"
+  local posicion_inicial="$2"
+  local delimitador="$3"
+    # Extraer la subcadena desde la posición inicial hasta el delimitador
+    local subcadena="${cadena:$posicion_inicial}"
+    subcadena="${subcadena%%$delimitador*}"
+
+    echo "$subcadena"
+}
+
 HOSTNAME=$(hostname | cut -b -30)
 if [[ $HOSTNAME == *".local"* ]]; then
   echo "LOCALHOST"
@@ -10,7 +25,20 @@ if [[ $HOSTNAME == *".local"* ]]; then
 fi
 
 env=$HOSTNAME
-PREFIJO=${1:0:12}
+
+# Ejemplo de uso
+# mi_cadena="Esto es un ejemplo de cadena. Delimitador: |"
+# posicion_inicial=10
+# delimitador="|"
+
+PREFIJO=$(extract_substring $1 0 "-")
+#echo "Subcadena extraída: $posfinal"
+
+
+
+#PREFIJO=${1:0:$posfinal}
+
+
 FECHAEJECUCION=$(date +'%Y-%m-%d %H:%M:%S')
 FECHAARCHIVOLOG=$(date +'%Y%m%d%H%M%S')
 NOMBREARCHIVO="log/"${PREFIJO}_$(date +'%Y%m%d%H%M%S')".TXT"
@@ -33,6 +61,7 @@ pruebaConexion() {
     buscar_texto $1 "*";
     if [ $? -eq 1 ]; then
         DEST=${1//\~/ }
+
         CAPA=${DEST:0:5}
         DEST=${DEST:5}
         DESTFILE=$(echo $1 | awk -F^ '{print $1}')
@@ -62,8 +91,13 @@ buscar_texto() {
         return 1 # Falso
     fi
 }
+
+
+
+export -f extract_substring
 export -f buscar_texto
 export -f pruebaConexion
+
 
 if [ "$#" -eq "0" ]
 then

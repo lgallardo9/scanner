@@ -1,0 +1,12 @@
+curl -v -m 2  10.139.2.59:30221 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.59:30221...
+* connect to 10.139.2.59 port 30221 failed: Connection refused
+* Failed to connect to 10.139.2.59 port 30221 after 27 ms: Couldn't connect to s
+erver
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Closing connection 0
+curl: (7) Failed to connect to 10.139.2.59 port 30221 after 27 ms: Couldn't conn
+ect to server

@@ -1,0 +1,16 @@
+curl -v -m 2  10.139.2.52:17501 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*
+   Trying 10.139.2.52:17501...
+* Connected to 10.139.2.52 (10.139.2.52) port 17501 (#0)
+> GET / HTTP/1.1
+> Host: 10.139.2.52:17501
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0*
+ Empty reply from server
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+* Closing connection 0
+curl: (52) Empty reply from server
